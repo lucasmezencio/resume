@@ -178,7 +178,7 @@ p {
   line-height: 23px;
 }
 
-.socual li {
+.social li {
   list-style: none;
 }
 
@@ -186,6 +186,22 @@ img {
   border: 1px solid #dddddd;
   margin: 15px;
   float: left;
+}
+
+.avatar {
+  width: 127px;
+  height: 127px;
+}
+
+.work div p:last-child {
+  padding-bottom: 10px;
+}
+
+/* Queries */
+@media (max-width: 990px) {
+  .social {
+    clear: both;
+  }
 }
 
 @media (max-width: 800px) {
@@ -196,20 +212,6 @@ img {
 
   .container {
     margin: 0px;
-  }
-}
-
-@media (max-width: 600px) {
-  .social {
-    margin-top: 10px;
-  }
-
-  .social ul li {
-    display: inline-block;
-  }
-
-  .social ul {
-    margin-top: 21px;
   }
 }
 
@@ -232,15 +234,6 @@ img {
     font-size: 16px;
   }
 
-  .social ul li {
-    display: block;
-  }
-
-  .social ul {
-    margin-top: 16px;
-    padding: 0 34px;
-  }
-
   article {
     padding: 10px 0;
   }
@@ -250,13 +243,30 @@ img {
   }
 }
 
-.avatar {
-  width: 127px;
-  height: 127px;
-}
+@media print {
+  article.welcome-row, article.interests-row {
+    display: none;
+  }
 
-.work div p:last-child {
-  padding-bottom: 10px;
+  footer span {
+    display: none;
+  }
+
+  .social ul li {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .social-icons {
+    float: right;
+  }
+
+  .social-icons a {
+    clear: both;
+    float: left;
+    font-size: 14px;
+    line-height: 23px;
+  }
 }
 
 /*  Font Awesome
