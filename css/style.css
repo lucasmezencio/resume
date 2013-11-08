@@ -150,6 +150,10 @@ img {
   height: 127px;
 }
 
+.work {
+  text-align: justify;
+}
+
 .work div p:last-child {
   padding-bottom: 10px;
 }
