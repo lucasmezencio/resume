@@ -12,4 +12,6 @@ $(document).ready(function() {
         'Rancore - Canto Gritando' : 'Surpreenda a todos aqueles que não esperam nada de você.',
         'Incubus - The Warmth' : 'Don\'t let the world bring you down.'
     }
+
+    $('#year').html((new Date()).getFullYear());
 });
