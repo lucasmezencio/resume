@@ -118,7 +118,7 @@ p {
   line-height: 30px;
 }
 
-.welcome.translate {
+/*.welcome.translate {
   display: none;
 }
 
@@ -128,11 +128,41 @@ p {
 
 .welcome-row:hover p.translate {
   display: block;
+}*/
+
+.translation {
+  opacity: 0;
+  /*display: none;*/
+}
+
+.translation, .original {
+  position: absolute;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.welcome-row:hover .original {
+  opacity: 0;
+  /*display: none;*/
+}
+
+.welcome-row:hover .translation {
+  opacity: 1;
+  /*display: block;*/
+}
+
+.welcome-row:hover .original {
+  opacity: 0;
 }
 
 .auth {
   text-align: right;
   font-size: 16px;
+}
+
+.auth.en {
+  margin-top: 30px;
 }
 
 .social a {
