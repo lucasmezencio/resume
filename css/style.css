@@ -118,6 +118,18 @@ p {
   line-height: 30px;
 }
 
+.welcome.translate {
+  display: none;
+}
+
+.welcome-row:hover p.welcome {
+  display: none;
+}
+
+.welcome-row:hover p.translate {
+  display: block;
+}
+
 .auth {
   text-align: right;
   font-size: 16px;
