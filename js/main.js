@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(document.body).fadeIn(1200);
+    $(document.body).fadeIn(500);
 
     $('a[href=#top]').click(function (e) {
         e.preventDefault();
