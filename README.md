@@ -31,56 +31,81 @@ I'm communicative, extroverted and friendly.
     ***Technical Environment*** Zend Framework 2, Doctrine 2, Vagrant, AngularJS, Apache 2.4, MySQL, Git, Ubuntu.
 
 * **Méliuz** *Engineer* __08/2014 to 07/2015__
+
     Maintenance and development of new features, optimising and refactoring legacy code, helping to steady improvement project.
+
     ***Technical Environment*** Laravel 4.2, MySQL, MongoDB, Redis, Flask, Beanstalkd, ShellScript (Bash), CentOS, Amazon Linux, Git.
 
 * **Learncafe** *Systems Analyst* __11/2013 to 08/2014__
+
     Analysis, planning and project management, acting as Scrum Master.
+
     Maintenance and development of new features, optimising and refactoring legacy code, one of those responsible for configuring servers, automation of tasks such as deployment.
+
     ***Technical Environment*** Zend Framework, MySQL, SOLR, Git.
 
 * **JCHEBLY Comunicação e Mídia** *Analyst and Developer* __09/2012 to 10/2013__
+
     Analysis and development of systems web applications.
+
     Configuration and administration of Linux servers.
+
     Analysis, planning and project management.
+
     ***Technical Environment*** Symfony 2, MySQL, Doctrine 2, NodeJS, ExpressJS, MongoDB, Redis, Ubuntu, CentOS, Amazon Linux.
 
 * **Bolt Brasil Comunicação Digital** *Analyst and Developer* __06/2011 to 08/2012__
+
     Analysis and development of systems web applications.
+
     Configuration and administration of Linux servers.
+
     ***Technical Environment*** Zend Framework, Wordpress, Doctrine 1.2, MySQL, Ubuntu.
 
 * **useInternational Brasil** *IT Developer* __11/2010 to 06/2011__
+
     Maintenance and development of new features, optimising and refactoring legacy code, helping to steady improvement project.
+
     ***Technical Environment*** Zend Framework, MySQL.
 
 * **Plan B Comunicação** *Analyst and Developer* __09/2010 to 11/2010__
+
     Analysis and development of systems web applications.
+
     Analysis, planning and project management.
+
     ***Technical Environment*** Codeigniter, Wordpress, MySQL, SQL Server 2005, ASP.
 
 * **Studio Sol Comunicação Digital** *Web Developer* __09/2008 to 08/2010__
+
     Analysis and development of systems web applications.
+
     Configuration and administration of Linux servers.
+
     Analysis, planning and project management.
+
     ***Technical Environment*** PHP, Wordpress, MySQL, OpenSocial (orkut), Memcached.
 
 ------
 ### Certifications
 
 **Certified Scrum Master** __12/2013__
+
     [*Scrum Alliance*](http://www.scrumalliance.org/community/profile/lmezencio)
 
 ------
 ### Education
 
 * **Technology in Analysis and Systems Development** __2013 to 2016 (expected)__
+
     Universidade Estácio de Sá
 
 * **Technology in Databases** __2013 (not concluded)__
+
     Faculdade Pitágoras
 
 * **Technology in Systems Development for Internet** __2006 to 2009 (not concluded)__
+
     Faculdade INED
 
 ------
