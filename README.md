@@ -90,7 +90,6 @@ I'm communicative, extroverted and friendly.
 ### Certifications
 
 **Certified Scrum Master** __12/2013__
-
     [*Scrum Alliance*](http://www.scrumalliance.org/community/profile/lmezencio)
 
 ------
