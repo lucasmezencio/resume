@@ -189,6 +189,11 @@ img {
   font-size: 27px;
 }
 
+.tech-env {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
 /* Queries */
 @media (max-width: 990px) {
   .social {
