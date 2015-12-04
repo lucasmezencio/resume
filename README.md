@@ -11,7 +11,7 @@
 ------
 ### Introduction
 
-I am an Analyst and Developer for 6 years.
+I am an Analyst and Developer for 8 years.
 I have experience developing and maintaining systems and web applications.
 I have solid knowledge of data modeling, administration, configuration and maintenance of Linux servers.
 I love electronics and to play once in a while with my Arduino at home.
@@ -28,7 +28,7 @@ I'm communicative, extroverted and friendly.
 
     Maintenance and development of new features, optimising and refactoring legacy code.
 
-    ***Technical Environment*** Zend Framework 2, Doctrine 2, Vagrant, AngularJS, Apache 2.4, MySQL, Git, Ubuntu.
+    ***Technical Environment*** Zend Framework 2, Doctrine 2, Symfony 2, Vagrant, AngularJS, Apache 2.4, MySQL, Git, Ubuntu.
 
 * **Méliuz** *Engineer* __08/2014 to 07/2015__
 
