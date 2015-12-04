@@ -6,7 +6,7 @@
 > [linkedin.com/in/lucasmezencio](http://linkedin.com/in/lucasmezencio)
 >
 > [lucas.mezencio@gmail.com](mailto:lucas.mezencio@gmail.com)
-> +55 (31) 9705 6636
+> +55 (31) 99705 6636
 
 ------
 ### Introduction
