@@ -151,16 +151,16 @@ p {
   margin-top: 30px;
 }
 
-.social a {
-  font-size: 24px;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
 .social {
   padding: 18px 0px;
   font-size: 14px;
   line-height: 23px;
+}
+
+.social .social-icons {
+  font-size: 24px;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .social li {
@@ -176,10 +176,6 @@ img {
 .avatar {
   width: 127px;
   height: 127px;
-}
-
-.work {
-  text-align: justify;
 }
 
 .work div p:last-child {
@@ -272,6 +268,11 @@ img {
 
   .title h2 {
     clear: both;
+  }
+
+  .company small {
+    display: block;
+    margin-top: 5px;
   }
 }
 
