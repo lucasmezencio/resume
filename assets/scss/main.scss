@@ -1,0 +1,24 @@
+@import 'theme/pillar-1';
+
+@media print {
+  .resume-header {
+    color: $dark !important;
+
+    .name {
+      color: $dark !important;
+    }
+
+    a {
+      color: $dark !important;
+      text-decoration: none !important;
+    }
+  }
+
+  .resume-wrapper-inner {
+    box-shadow: none !important;
+  }
+
+  footer {
+    display: none !important;
+  }
+}
