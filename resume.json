@@ -1,0 +1,369 @@
+{
+  "basics": {
+    "name": "Lucas Araújo Mezencio",
+    "label": "Full-Stack Web Developer",
+    "picture": "//secure.gravatar.com/avatar/9c0883cd34733c1fa9c66331904bdb40?s=420",
+    "email": "lucas.mezencio@gmail.com",
+    "summary": "I am an experienced web developer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I try to focus on quality code always praising good practices, ensuring application performance and scalability.\n\nI love electronics and to play once in a while with my Arduino at home.\n\nI like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.\n\nI'm communicative, extroverted and friendly.",
+    "location": {
+      "city": "Belo Horizonte",
+      "region": "Minas Gerais",
+      "countryCode": "BR"
+    },
+    "phone": "+55 31 997 056 636",
+    "website": "http://about.me/lucasmezencio",
+    "profiles": [
+      {
+        "network": "linkedin-in",
+        "username": "lucasmezencio",
+        "url": "http://linkedin.com/in/lucasmezencio"
+      },
+      {
+        "network": "github",
+        "username": "lucasmezencio",
+        "url": "http://github.com/lucasmezencio"
+      },
+      {
+        "network": "google-plus-g",
+        "username": "lucasmezencio",
+        "url": "http://plus.google.com/+lucasmezencio"
+      },
+      {
+        "network": "facebook",
+        "username": "lucasmezencio",
+        "url": "http://fb.me/lucasmezencio"
+      },
+      {
+        "network": "twitter",
+        "username": "lucasmezencio",
+        "url": "http://twitter.com/lucasmezencio"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "XLabora Ltd. / BuddyAd",
+      "position": "Senior Full Stack Web Developer / Tech Lead",
+      "summary": "I've created an action-based access log system in the application. I optimised resource utilisation and application runtime by deploying a queuing system using Beanstalkd, later migrated to Amazon SQS.\n\nImproved database organisation and modelling, along with query optimisation, significantly increasing application performance, also migrating the database to Amazon RDS.\n\nI rewrote a good part of the application using clean code practices and software architecture to ensure a quick and performative application for the end user.\n\nReduced infrastructure costs by nearly 60% after optimisations.",
+      "startDate": "2017-04-01",
+      "highlights": [
+        "PHP",
+        "ShellScript (Bash)",
+        "Laravel 5",
+        "Symfony 4",
+        "Doctrine",
+        "Docker",
+        "MySQL",
+        "MariaDB",
+        "Git",
+        "AWS (RDS, EC2, SQS, Elastic Beanstalk)"
+      ]
+    },
+    {
+      "company": "Its4Company",
+      "position": "Senior Full Stack Web Developer",
+      "summary": "I worked on the restructuring of the application used at the time, improving the coherence between the architecture and the organisation of the code. I created an interactive drawing application using JavaScript and canvas.",
+      "startDate": "2016-12-01",
+      "endDate": "2017-03-01",
+      "highlights": [
+        "AngularJS",
+        "NodeJS",
+        "Git"
+      ]
+    },
+    {
+      "company": "PRODEMGE (Companhia de Tecnologia da Informação do Estado de Minas Gerais)",
+      "position": "Senior Developer",
+      "summary": "I worked with system analysts to help design features and tasks for the development team, always ensuring fast, concise deliveries.\n\nI created a connection driver for CakePHP 3 to connect to Db2 for IBM z / OS banks, and I also collaborated with the Laravel Db2 project by adding the Db2 for IBM z / OS connection functionality.\n\nI also worked with the infrastructure team to develop a code version control flow and Git deployment, and to optimise automated deploy routines with Jenkins.",
+      "startDate": "2016-03-01",
+      "endDate": "2016-12-01",
+      "highlights": [
+        "PHP",
+        "CakePHP 2/3",
+        "Laravel 5",
+        "Apache",
+        "Git",
+        "Oracle",
+        "Db2 for IBM z/OS"
+      ]
+    },
+    {
+      "company": "Fundep / UFMG - Universidade Federal de Minas Gerais",
+      "position": "Senior Full Stack Web Developer",
+      "summary": "I worked on the maintenance and development of new features, optimisation and refactoring of legacy code. I rewrote the entire back-office application from scratch using a completely new and more concise architecture.\n\nI optimised the Continuous Integration process and deploy the application together with the infrastructure team.",
+      "startDate": "2015-08-01",
+      "endDate": "2016-02-01",
+      "highlights": [
+        "PHP",
+        "ShellScript (Bash)",
+        "Zend Framework 2",
+        "Symfony 2",
+        "Doctrine",
+        "Vagrant",
+        "AngularJS",
+        "Apache",
+        "MySQL",
+        "Git",
+        "Ubuntu."
+      ]
+    },
+    {
+      "company": "Méliuz",
+      "position": "Software Engineer",
+      "summary": "I created an access control system based on routes of the application used in the back office. I also created a routine for backup of the production database in ShellScript.\n\nI collaborated with the team's involvement in migrating version control to Github and creating a more coherent internal communication culture among the team.",
+      "startDate": "2014-08-01",
+      "endDate": "2015-07-01",
+      "highlights": [
+        "PHP",
+        "Python",
+        "Laravel 4",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Flask",
+        "Beanstalkd",
+        "ShellScript (Bash)",
+        "CentOS",
+        "Amazon Linux",
+        "Git."
+      ]
+    },
+    {
+      "company": "Learncafe - Cursos Online",
+      "position": "System Analyst / Tech Lead / ScrumMaster",
+      "summary": "As a ScrumMaster and analyst, I organised the flow of development, increasing the productivity of the team and thus ensuring more assertive, concise and fast deliveries.\n\nI helped organise the entire legacy code, refactoring whenever possible using clean code techniques and software architecture. I also created a deployment flow for the Gitflow-based application. I also created the initial setup of the production servers, such as making better use of the machine resources to run the application.",
+      "startDate": "2013-11-01",
+      "endDate": "2014-08-01",
+      "highlights": [
+        "PHP",
+        "Zend Framework",
+        "MySQL",
+        "SOLR",
+        "Git"
+      ]
+    },
+    {
+      "company": "JCHEBLY Comunicação e Mídia",
+      "position": "Developer and Analyst",
+      "summary": "I worked in the analysis and development of web applications focusing always on the best practices of software development, using cutting-edge technologies, always compatible with the needs of the clients.\n\nIn the part of project planning and management, I increased the productivity of the team by organising the flow of project development, applying project management methodologies and helping to build a fully qualified team.\n\nConfiguration and administration of Linux servers.",
+      "startDate": "2012-09-01",
+      "endDate": "2013-10-01",
+      "highlights": [
+        "PHP",
+        "Symfony 2",
+        "MySQL",
+        "Doctrine",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "Redis",
+        "Ubuntu",
+        "CentOS",
+        "Amazon Linux"
+      ]
+    },
+    {
+      "company": "Bolt Brasil Comunicação Digital",
+      "position": "Developer and Analyst",
+      "summary": "Analysis and development of systems web applications.\n\nConfiguration and administration of Linux servers.",
+      "startDate": "2011-06-01",
+      "endDate": "2012-09-01",
+      "highlights": [
+        "PHP",
+        "Zend Framework",
+        "Wordpress",
+        "Doctrine 1",
+        "MySQL",
+        "Ubuntu"
+      ]
+    },
+    {
+      "company": "useInternational",
+      "position": "Technology Information Developer",
+      "summary": "Maintenance and development of new features, optimising and refactoring legacy code, helping to steady improvement project.",
+      "startDate": "2010-11-01",
+      "endDate": "2011-06-01",
+      "highlights": [
+        "PHP",
+        "Zend Framework",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Plan B Comunicação",
+      "position": "Analista Desenvolvedor",
+      "summary": "Analysis and development of systems web applications.\n\nAnalysis, planning and project management.",
+      "startDate": "2010-09-01",
+      "endDate": "2010-11-01",
+      "highlights": [
+        "PHP",
+        "Codeigniter",
+        "Wordpress",
+        "MySQL",
+        "SQL Server 2005",
+        "ASP"
+      ]
+    },
+    {
+      "company": "Studio Sol Comunicação Digital",
+      "position": "Desenvolvedor Web",
+      "summary": "Analysis and development of systems web applications.\n\nConfiguration and administration of Linux servers.\n\nAnalysis, planning and project management.",
+      "startDate": "2008-09-01",
+      "endDate": "2010-07-01",
+      "highlights": [
+        "PHP",
+        "Wordpress",
+        "MySQL",
+        "OpenSocial (orkut)",
+        "Memcached"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organisation": "PHP MG",
+      "position": "Co-organiser",
+      "summary": "I help in organising events and ensuring a harmless and pleasant environment for all types of people.",
+      "highlights": [
+        "beer.php - Informal Meetup that happens 1 time a month where we chat about programming and drink a beer (or soft drinks, or juice, or tea).",
+        "PHPMG Talks - Formal Meetup with at least 2 talks on subjects involving the PHP ecosystem and Web Development widely."
+      ],
+      "startDate": "2015-01-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Udacity",
+      "studyType": "Full-Stack Web Developer Nanodegree",
+      "startDate": "2017-01"
+    },
+    {
+      "institution": "Universidade Estácio de Sá",
+      "area": "Computer Science",
+      "studyType": "Analysis and Systems Development",
+      "startDate": "2013-01",
+      "endDate": "2015-01"
+    },
+    {
+      "institution": "Faculdade Pitágoras",
+      "area": "Computer Science",
+      "studyType": "Database Technology",
+      "startDate": "2013-01",
+      "endDate": "2013-01"
+    },
+    {
+      "institution": "Faculdade Pitágoras",
+      "area": "Computação",
+      "studyType": "Development of Internet Systems",
+      "startDate": "2006-01",
+      "endDate": "2010-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "level": "11+ years"
+    },
+    {
+      "name": "JavaScript",
+      "level": "11+ years"
+    },
+    {
+      "name": "MySQL",
+      "level": "10+ years"
+    },
+    {
+      "name": "HTML",
+      "level": "11+ years"
+    },
+    {
+      "name": "CSS",
+      "level": "10+ years"
+    },
+    {
+      "name": "Linux",
+      "level": "7+ years"
+    },
+    {
+      "name": "Git",
+      "level": "6+ years"
+    },
+    {
+      "name": "Python",
+      "level": "6+ years"
+    },
+    {
+      "name": "DevOps",
+      "level": "4+ years"
+    },
+    {
+      "name": "Postgres",
+      "level": "3+ years"
+    },
+    {
+      "name": "Docker",
+      "level": "1+ years"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "level": "Native Speaker"
+    },
+    {
+      "name": "English",
+      "level": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music"
+    },
+    {
+      "name": "Videogames"
+    },
+    {
+      "name": "Technology"
+    },
+    {
+      "name": "Science"
+    },
+    {
+      "name": "Astronomy"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jonathan Pereira (Software Enginner; PHP. Studying Python and Node.js, reading: Clean Code (Robert C. Martin).)",
+      "reference": "I've had the opportunity to work with Lucas twice. At both opportunities, he was known to be a dedicated professional committed with the projects and deadlines. He was also known to be always available to help the colleagues to find solutions, debug codes or even have a usability discussion."
+    },
+    {
+      "name": "Octavio Amuchástegui (Front End developer)",
+      "reference": "Lucas is an excellent developer with great skills. We worked together in a lot of projects and always helped me. We always discuss a lot of technical solutions and was open to teach and explain his point of view. Work with Lucas was an excellent opportunity."
+    },
+    {
+      "name": "Marcos Duarte (Software Developer)",
+      "reference": "Lucas is an outstanding professional. From his interpersonal skills to the quality of the code he writes, you can easily see why he stands out from the crowd. During the time we worked together at Learncafe, he helped bring our tech team to a whole new level by introducing us to best practices and the newest technology, as well as implementing Agile Development, which significantly increased the team's productivity. As a former colleague and as a friend, I have Lucas as a point of reference, as I am constantly learning new things from him."
+    },
+    {
+      "name": "José de Menezes Soares (Founder & CEO at Learncafe.com)",
+      "reference": "Lucas Mezêncio é um profissional com real paixão por tecnologia. Sempre antenado, trata-se de um early adopter do que tem de mais moderno, produtivo e novo no mercado. A experiência de trabalhar com o Lucas Mezêncio no Learncafe foi muito importante para mim e para empresa, onde atualizamos muitos processos e tecnologias, tudo baseado nas experiência deste grande profissional!"
+    },
+    {
+      "name": "Luiz Pedone (Software Engineer at ThoughtWorks)",
+      "reference": "Lucas is a very good developer. He cares about code quality, always advocating for clean code and readability. During the time we worked together at Méliuz, Lucas and I did several improvements on the development process. These improvements helped developers feel more involved in code review processes and more productive. Last but not least, Lucas is a great guy to have in a team: he's very collaborative and engaged in making the team better."
+    },
+    {
+      "name": "Pedro Tozzini (Strategist at LiveAD)",
+      "reference": ""
+    },
+    {
+      "name": "Flávio Silva (flaviosil) (Front-end Engineer at Groupon Latam Front-end Engineer at Peixe Urbano)",
+      "reference": "Tive a ótima oportunidade de trabalhar juntos na mesma empresa. Lucas é um profissional dedicado, possui uma visão crítica apurada, detalhista e trabalha muito bem em grupo. Possui realmente bastante talento com desenvolvimento PHP, JS e administração de servidores Linux."
+    },
+    {
+      "name": "Marcello Cardoso (Gerente de Produtos na Rock Content)",
+      "reference": "Lucas has a natural thirst for innovation, and is extremely pleasant to work in the same environment that him, as he is a really friendlyand easy-going person."
+    }
+  ]
+}
