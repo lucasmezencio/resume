@@ -1,6 +1,10 @@
 @import 'theme/pillar-1';
 
 @media print {
+  .badge {
+    border: 1px solid $theme-text-color-light;
+  }
+
   .resume-header {
     color: $dark !important;
 
@@ -11,6 +15,12 @@
     a {
       color: $dark !important;
       text-decoration: none !important;
+    }
+  }
+
+  .resume-skill-item, .resume-interest-list {
+    li {
+      display: inline;
     }
   }
 
