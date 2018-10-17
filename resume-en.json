@@ -104,7 +104,7 @@
         "Apache",
         "MySQL",
         "Git",
-        "Ubuntu."
+        "Ubuntu"
       ]
     },
     {
@@ -125,7 +125,7 @@
         "ShellScript (Bash)",
         "CentOS",
         "Amazon Linux",
-        "Git."
+        "Git"
       ]
     },
     {
@@ -235,28 +235,32 @@
     {
       "institution": "Udacity",
       "studyType": "Full-Stack Web Developer Nanodegree",
-      "startDate": "2017-01"
+      "startDate": "2017-01",
+      "concluded": false
     },
     {
       "institution": "Universidade Estácio de Sá",
       "area": "Computer Science",
       "studyType": "Analysis and Systems Development",
       "startDate": "2013-01",
-      "endDate": "2015-01"
+      "endDate": "2015-01",
+      "concluded": false
     },
     {
       "institution": "Faculdade Pitágoras",
       "area": "Computer Science",
       "studyType": "Database Technology",
       "startDate": "2013-01",
-      "endDate": "2013-01"
+      "endDate": "2013-01",
+      "concluded": false
     },
     {
       "institution": "Faculdade Pitágoras",
       "area": "Computação",
       "studyType": "Development of Internet Systems",
       "startDate": "2006-01",
-      "endDate": "2010-01"
+      "endDate": "2010-01",
+      "concluded": false
     }
   ],
   "skills": [

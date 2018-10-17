@@ -6,5 +6,9 @@
         {% if education.endDate %}
             - {{ education.endDate }}
         {% endif %}
+
+        {% if not education.concluded %}
+            <small class="resume-note">not concluded</small>
+        {% endif %}
     </div>
 </li>

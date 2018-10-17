@@ -11,6 +11,9 @@ const browserSync = require('browser-sync');
 
 const STATIC_PATH = '.';
 
+/**
+ * @returns {{br: *, en: *}}
+ */
 const loadJSON = () => {
   let resumeBr = fs.readFileSync('resume-br.json');
   let resumeEn = fs.readFileSync('resume-en.json');

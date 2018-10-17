@@ -235,28 +235,32 @@
     {
       "institution": "Udacity",
       "studyType": "Full Stack Web Developer Nanodegree",
-      "startDate": "2017-01"
+      "startDate": "2017-01",
+      "concluded": false
     },
     {
       "institution": "Universidade Estácio de Sá",
       "area": "Ciência da Computação",
       "studyType": "Análise e Desenvolvimento de Sistemas",
       "startDate": "2013-01",
-      "endDate": "2015-01"
+      "endDate": "2015-01",
+      "concluded": false
     },
     {
       "institution": "Faculdade Pitágoras",
       "area": "Ciência da Computação",
       "studyType": "Tecnologia em Banco de Dados",
       "startDate": "2013-01",
-      "endDate": "2013-01"
+      "endDate": "2013-01",
+      "concluded": false
     },
     {
       "institution": "Faculdade Pitágoras",
       "area": "Computação",
       "studyType": "Desenvolvimento de Sistemas para Internet",
       "startDate": "2006-01",
-      "endDate": "2010-01"
+      "endDate": "2010-01",
+      "concluded": false
     }
   ],
   "skills": [
