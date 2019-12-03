@@ -6,11 +6,11 @@
     "email": "lucas.mezencio@gmail.com",
     "summary": "I am an experienced web developer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I try to focus on quality code always praising good practices, ensuring application performance and scalability.\n\nI love electronics and to play once in a while with my Arduino at home.\n\nI like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.\n\nI'm communicative, extroverted and friendly.",
     "location": {
-      "city": "Belo Horizonte",
-      "region": "Minas Gerais",
-      "countryCode": "BR"
+      "city": "Gzira",
+      "region": "Gzira",
+      "countryCode": "Malta"
     },
-    "phone": "+55 31 997 056 636",
+    "phone": "+356 99366809",
     "website": "http://about.me/lucasmezencio",
     "profiles": [
       {
@@ -42,10 +42,30 @@
   },
   "work": [
     {
+      "company": "Blexr Ltd.",
+      "position": "Senior PHP Developer",
+      "summary": "I've helped the team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.\n\nTogether with another senior developer, we've created a stable and '1-click' development environment with Docker.\n\nHelped DevOps to create and set up pipelines for deployments, static code analysis and integration.\n\nConfigured a serverless app to handle HTTP redirects.",
+      "startDate": "2019-01-01",
+      "highlights": [
+        "PHP (in-house framework)",
+        "ShellScript (Bash)",
+        "Docker",
+        "MySQL",
+        "MariaDB",
+        "Git",
+        "GitLab CI",
+        "DevOps",
+        "AWS",
+        "Apache Kafka",
+        "Redis"
+      ]
+    },
+    {
       "company": "XLabora Ltd. / BuddyAd",
       "position": "Senior Full Stack Web Developer / Tech Lead",
       "summary": "I've created an action-based access log system in the application. I optimised resource utilisation and application runtime by deploying a queuing system using Beanstalkd, later migrated to Amazon SQS.\n\nImproved database organisation and modelling, along with query optimisation, significantly increasing application performance, also migrating the database to Amazon RDS.\n\nI rewrote a good part of the application using clean code practices and software architecture to ensure a quick and performative application for the end user.\n\nReduced infrastructure costs by nearly 60% after optimisations.",
       "startDate": "2017-04-01",
+      "endDate": "2018-10-01",
       "highlights": [
         "PHP",
         "ShellScript (Bash)",
