@@ -21,7 +21,7 @@
   "homepage": "https://github.com/lucasmezencio/resume#readme",
   "devDependencies": {
     "bootstrap": "^4.4.1",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.12",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
