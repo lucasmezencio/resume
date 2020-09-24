@@ -253,12 +253,6 @@
   ],
   "education": [
     {
-      "institution": "Udacity",
-      "studyType": "Full Stack Web Developer Nanodegree",
-      "startDate": "2017-01",
-      "concluded": false
-    },
-    {
       "institution": "Universidade Estácio de Sá",
       "area": "Ciência da Computação",
       "studyType": "Análise e Desenvolvimento de Sistemas",
@@ -268,16 +262,8 @@
     },
     {
       "institution": "Faculdade Pitágoras",
-      "area": "Ciência da Computação",
-      "studyType": "Tecnologia em Banco de Dados",
-      "startDate": "2013-01",
-      "endDate": "2013-01",
-      "concluded": false
-    },
-    {
-      "institution": "Faculdade Pitágoras",
       "area": "Computação",
-      "studyType": "Desenvolvimento de Sistemas para Internet",
+      "studyType": "Tecnologia Desenvolvimento de Sistemas para Internet e Banco de Dados",
       "startDate": "2006-01",
       "endDate": "2010-01",
       "concluded": false
@@ -326,7 +312,7 @@
     },
     {
       "name": "Docker",
-      "level": "1+ anos"
+      "level": "3+ anos"
     }
   ],
   "languages": [
@@ -336,7 +322,7 @@
     },
     {
       "name": "Inglês",
-      "level": "Técnico"
+      "level": "Conversação"
     }
   ],
   "interests": [
