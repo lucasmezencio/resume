@@ -27,7 +27,7 @@ I'm communicative, extroverted and friendly.
 ------
 ### Experience
 
-* **[Blexr](https://www.blexr.com/) *Senior PHP Developer * __Jan 2019 to present__
+* **[Blexr](https://www.blexr.com/)** *Senior PHP Developer* __Jan 2019 to present__
 
     I've helped the team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.
 
