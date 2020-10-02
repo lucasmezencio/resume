@@ -1,11 +1,11 @@
 # Lucas Mezêncio
-## full stack web developer
+## Senior PHP Developer
 
 > [about.me/lucasmezencio](http://about.me/lucasmezencio)
 >
 > [linkedin.com/in/lucasmezencio](http://linkedin.com/in/lucasmezencio)
 >
-> Belo Horizonte, MG, Brazil
+> Gzira, Malta
 >
 > [lucas.mezencio@gmail.com](mailto:lucas.mezencio@gmail.com)
 >
@@ -27,7 +27,19 @@ I'm communicative, extroverted and friendly.
 ------
 ### Experience
 
-* **[XLabora Ltd.](http://www.xlabora.com) | [BuddyAd](http://www.buddyad.com)** *Senior Full Stack Web Developer | Tech Lead* __Apr 2017 to present__
+* **[Blexr](https://www.blexr.com/) *Senior PHP Developer * __Jan 2019 to present__
+
+    I've helped the team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.
+
+    Together with another senior developer, we've created a stable and '1-click' development environment with Docker.
+
+    Helped DevOps to create and set up pipelines for deployments, static code analysis and integration.
+
+    Configured a serverless app to handle HTTP redirects.
+
+    ***Technical Environment*** `PHP`, `ShellScript (Bash)`, `Laravel 5`, `Symfony 4`, `Doctrine`, `Docker`, `MySQL`, `MariaDB`, `Git`, `AWS (RDS, EC2, SQS, Elastic Beanstalk)`
+
+* **[XLabora Ltd.](http://www.xlabora.com) | [BuddyAd](http://www.buddyad.com)** *Senior Full Stack Web Developer | Tech Lead* __Apr 2017 to Oct 2018__
 
     I've created an action-based access log system in the application. I optimised resource utilisation and application runtime by deploying a queuing system using Beanstalkd, later migrated to Amazon SQS
 
@@ -161,5 +173,5 @@ I'm communicative, extroverted and friendly.
 ### Languages
 
 1. Portuguese *(native)*
-2. English *(advanced in technical, fluent in writing)*
+2. English *(fluent)*
 3. Spanish *(basic)*
