@@ -45,6 +45,12 @@ gulp.task('nunjucks:watch', gulp.series((done) => {
   done()
 }))
 
+gulp.task('json:watch', gulp.series((done) => {
+  gulp.watch('./resume*.json', gulp.series('nunjucks'))
+
+  done()
+}))
+
 gulp.task('sass', gulp.series((done) => {
   gulp.src('./assets/scss/*.scss')
     .pipe(sass({
@@ -107,7 +113,7 @@ gulp.task('browser-sync', gulp.series((done) => {
 }))
 
 gulp.task('build', gulp.series('nunjucks', 'sass', 'js'))
-gulp.task('watch', gulp.series('nunjucks:watch', 'sass:watch', 'js:watch'))
+gulp.task('watch', gulp.series('nunjucks:watch', 'sass:watch', 'js:watch', 'json:watch'))
 
 /** Gulp Default **/
 gulp.task('default', gulp.series('build', 'watch', 'browser-sync'))
