@@ -25,9 +25,7 @@ const loadJSON = () => {
 }
 
 /** General Tasks **/
-gulp.task('build', ['nunjucks', 'sass', 'js'])
-
-gulp.task('nunjucks', () => {
+gulp.task('nunjucks', gulp.series((done) => {
   gulp.src('./views/pages/**/*.njk')
     .pipe(nunjucksRender({
       path: ['./views/templates'],
@@ -37,13 +35,17 @@ gulp.task('nunjucks', () => {
     }))
     .pipe(gulp.dest(`${STATIC_PATH}/`))
     .pipe(browserSync.stream())
-})
 
-gulp.task('nunjucks:watch', () => {
-  gulp.watch('./views/**/*.njk', ['nunjucks'])
-})
+  done()
+}))
 
-gulp.task('sass', () => {
+gulp.task('nunjucks:watch', gulp.series((done) => {
+  gulp.watch('./views/**/*.njk', gulp.series('nunjucks'))
+
+  done()
+}))
+
+gulp.task('sass', gulp.series((done) => {
   gulp.src('./assets/scss/*.scss')
     .pipe(sass({
       outputStyle: 'compressed',
@@ -53,15 +55,17 @@ gulp.task('sass', () => {
     .pipe(rename('main.min.css'))
     .pipe(gulp.dest(`${STATIC_PATH}/css/`))
     .pipe(browserSync.stream())
-})
 
-gulp.task('sass:watch', () => {
-  gulp.watch('./assets/scss/**/*.scss', ['sass'])
-})
+  done()
+}))
 
-gulp.task('watch', ['nunjucks:watch', 'sass:watch', 'js:watch'])
+gulp.task('sass:watch', gulp.series((done) => {
+  gulp.watch('./assets/scss/**/*.scss', gulp.series('sass'))
 
-gulp.task('js', () => {
+  done()
+}))
+
+gulp.task('js', gulp.series((done) => {
   let components = [
     './node_modules/jquery/dist/jquery.slim.min.js',
     './node_modules/popper.js/dist/umd/popper.min.js',
@@ -82,19 +86,28 @@ gulp.task('js', () => {
     .pipe(uglify())
     .pipe(gulp.dest(jsDest))
     .pipe(browserSync.stream())
-})
 
-gulp.task('js:watch', () => {
-  gulp.watch('./assets/js/**/*.js', ['js'])
-})
+  done()
+}))
 
-gulp.task('browser-sync', () => {
+gulp.task('js:watch', gulp.series((done) => {
+  gulp.watch('./assets/js/**/*.js', gulp.series('js'))
+
+  done();
+}))
+
+gulp.task('browser-sync', gulp.series((done) => {
   browserSync.init({
     server: {
       baseDir: STATIC_PATH,
     },
   })
-})
+
+  done()
+}))
+
+gulp.task('build', gulp.series('nunjucks', 'sass', 'js'))
+gulp.task('watch', gulp.series('nunjucks:watch', 'sass:watch', 'js:watch'))
 
 /** Gulp Default **/
-gulp.task('default', ['build', 'watch', 'browser-sync'])
+gulp.task('default', gulp.series('build', 'watch', 'browser-sync'))
