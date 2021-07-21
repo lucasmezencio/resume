@@ -1,17 +1,15 @@
 /*!
- * Template Name: Pillar - Bootstrap 4 Resume/CV Template for Developers
- * Version: 1.0.1
+ * Template Name: Pillar - Bootstrap 5 Resume/CV Template for Developers
+ * Version: Bootstrap 5 v1.0
  * Author: Xiaoying Riley
  * Copyright: 3rd Wave Media
  * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
  * Website: http://themes.3rdwavemedia.com/
 */
 
 // Define theme colour scheme
 $theme-color-primary: #434E5E;
 $theme-text-color-primary: #434E5E;
-
 $theme-text-color-secondary: lighten($theme-text-color-primary, 10%);
 $theme-text-color-light: lighten($theme-text-color-primary, 40%);
 $theme-border-color: lighten($theme-text-color-primary, 10%);
@@ -37,7 +35,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $theme-text-color-primary;
+  overflow-x: hidden;
+}
 
+a {
+  color: $theme-color-primary;
+
+  &:hover {
+    color: darken($theme-color-primary, 15%);
+  }
+
+  &.no-text-decoration {
+    text-decoration: none;
+  }
+}
+
+a.text-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .theme-bg-primary {
@@ -55,7 +73,8 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 
   &:hover, &:focus, &:active {
     background: rgba(0, 0, 0, 0.4);
-    border: none transparent;
+    border-color: transparent;
+    border: none;
   }
 }
 
@@ -70,7 +89,6 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 .resume-wrapper {
   padding-top: 30px;
   padding-bottom: 60px;
-
 }
 
 .resume-wrapper-inner {
@@ -87,13 +105,13 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
   }
 
   .name {
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     letter-spacing: 0.175rem;
     font-weight: 900;
   }
 
   .title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   a {
@@ -125,7 +143,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
   color: $theme-color-primary;
 
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: 0;
@@ -143,7 +161,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
   padding-left: 2rem;
 
   &:before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 3px;
     height: 100%;
@@ -199,7 +217,6 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 }
 
 .resume-skill-name {
-  display: inline-block;
   font-size: 0.8125rem;
   color: $theme-text-color-primary;
 }
@@ -217,8 +234,9 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
   font-size: 0.875rem;
 }
 
-//.resume-awards-list {
-//}
+.resume-awards-list {
+
+}
 
 .resume-award-icon {
   left: 0;
@@ -240,12 +258,6 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 }
 
 .footer {
-  color: $theme-text-color-light;
-
-  a {
-    color: lighten($theme-color-primary, 10%);
-  }
-
   .fa-heart {
     color: $heart-colour;
   }
@@ -260,7 +272,6 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
   .resume-header {
     height: auto;
   }
-
   .resume-header .picture {
     width: 120px;
     @include border-radius(4px);

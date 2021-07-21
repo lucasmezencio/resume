@@ -1,0 +1,50 @@
+# {{ resume.basics.name }}
+## {{ resume.basics.label }}
+
+{% for profile in resume.basics.profiles %}
+> [{{ profile.url|replace('https://', '') }}]({{ profile.url }})
+> {% endfor %}
+> {{ resume.basics.location.city }}, {{ resume.basics.location.region }} - {{ resume.basics.location.countryCode }}
+>
+> [{{ resume.basics.email }}](mailto:{{ resume.basics.email }})
+>
+> skype: lucas.mezencio
+>
+> {{ resume.basics.phone }}
+
+------
+### {{ topics.summary }}
+
+{{ resume.basics.summary|replace("\n", '<br>')|safe }}
+
+------
+### {{ topics.work }}
+
+{% for work in resume.work %}
+* **[{{ work.company }}](https://googoe.com/)** *{{ work.position }}* __{{ work.startDate}} to {{ work.endDate or 'Present' }}__
+
+{{ work.summary|replace("\n", '<br>')|safe }}
+
+***Technical Environment*** {% for technology in work.highlights %}`{{ technology }}`, {% endfor %}
+{% endfor %}
+
+------
+### {{ topics.education }}
+
+{% for education in resume.education %}
+* **{{ education.studyType }}** __{{ education.startDate }}{% if education.endDate %} - {{ education.endDate }}{% endif %}{% if not education.concluded %} (not concluded){% endif %}__
+
+{{ education.institution }}
+{% endfor %}
+
+------
+### {{ topics.skills }}
+
+{% for skill in resume.skills %}{{ loop.index }}. *{{ skill.name }}* ({{ skill.level }})
+{% endfor %}
+
+------
+### {{ topics.languages }}
+
+{% for language in resume.languages %}{{ loop.index }}. *{{ language.name }}* ({{ language.level }})
+{% endfor %}

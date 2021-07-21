@@ -1,5 +1,13 @@
 @import 'theme/pillar-1';
 
+.text-dark {
+  color: $dark !important;
+}
+
+.bg-light {
+  background-color: $light !important;
+}
+
 @media print {
   .badge {
     border: 1px solid $theme-text-color-light;

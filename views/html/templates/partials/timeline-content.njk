@@ -2,7 +2,7 @@
     <div class="resume-timeline-item-header mb-2">
         <div class="d-flex flex-column flex-md-row">
             <h3 class="resume-position-title font-weight-bold mb-1">{{ work.position }}</h3>
-            <div class="resume-company-name ml-auto">{{ work.company }}</div>
+            <div class="resume-company-name ms-auto text-md-end">{{ work.company }}</div>
         </div><!--//row-->
 
         <div class="resume-position-time">{{ work.startDate }} - {{ work.endDate or 'Present' }}</div>
@@ -20,7 +20,7 @@
         <ul class="list-inline">
             {% for technology in work.highlights %}
                 <li class="list-inline-item">
-                    <span class="badge badge-primary badge-pill">{{ technology }}</span>
+                    <span class="badge bg-primary badge-pill">{{ technology }}</span>
                 </li>
             {% endfor %}
         </ul>

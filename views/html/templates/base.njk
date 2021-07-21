@@ -26,46 +26,50 @@
 
 <body>
 <article class="resume-wrapper text-center position-relative">
-    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
         <header class="resume-header pt-4 pt-md-0">
-            <div class="media flex-column flex-md-row">
-                <img class="mr-3 img-fluid picture mx-auto" src="{{ resume.basics.picture }}" alt="">
+            <div class="row">
+                <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+                    <img class="picture" src="{{ resume.basics.picture }}" alt="Lucas laughing on his wedding.">
+                </div><!--//col-->
 
-                <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
-                    <div class="primary-info">
-                        <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">
-                            {{ resume.basics.name }}
-                        </h1>
+                <div class="col">
+                    <div class="row p-4 justify-content-center justify-content-md-between">
+                        <div class="primary-info col-auto">
+                            <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">
+                                {{ resume.basics.name }}
+                            </h1>
 
-                        <div class="title mb-3">{{ resume.basics.label }}</div>
+                            <div class="title mb-3">{{ resume.basics.label }}</div>
 
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <i class="fas fa-at fa-fw mr-2"
-                                    data-fa-transform="grow-3"></i> {{ resume.basics.email }}
-                            </li>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="fas fa-at fa-fw me-2"
+                                       data-fa-transform="grow-3"></i>{{ resume.basics.email }}
+                                </li>
 
-                            <li class="mb-2">
-                                <i class="fas fa-mobile-alt fa-fw mr-2"
-                                    data-fa-transform="grow-6"></i> {{ resume.basics.phone }}
-                            </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-mobile-alt fa-fw me-2"
+                                       data-fa-transform="grow-6"></i>{{ resume.basics.phone }}
+                                </li>
 
-                            <li>
-                                <i class="far fa-envelope fa-fw mr-2"
-                                    data-fa-transform="grow-6"></i> {{ resume.basics.location.city }}, {{ resume.basics.location.region }} - {{ resume.basics.location.countryCode }}
-                            </li>
-                        </ul>
-                    </div><!--//primary-info-->
+                                <li>
+                                    <i class="far fa-envelope fa-fw me-2"
+                                       data-fa-transform="grow-6"></i>{{ resume.basics.location.city }}, {{ resume.basics.location.region }} - {{ resume.basics.location.countryCode }}
+                                </li>
+                            </ul>
+                        </div><!--//primary-info-->
 
-                    <div class="secondary-info ml-md-auto mt-2">
-                        <ul class="resume-social list-unstyled">
-                            {% for profile in resume.basics.profiles %}
-                                {% include 'partials/profile.njk' %}
-                            {% endfor %}
-                        </ul>
-                    </div><!--//secondary-info-->
-                </div><!--//media-body-->
-            </div><!--//media-->
+                        <div class="secondary-info col-auto mt-2">
+                            <ul class="resume-social list-unstyled">
+                                {% for profile in resume.basics.profiles %}
+                                    {% include 'partials/profile.njk' %}
+                                {% endfor %}
+                            </ul>
+                        </div><!--//secondary-info-->
+                    </div><!--//row-->
+                </div><!--//col-->
+            </div><!--//row-->
         </header>
 
         <div class="resume-body p-5">
@@ -179,7 +183,7 @@
 <footer class="footer text-center pt-2 pb-5">
     <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
     <small class="copyright">
-        Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com"
+        Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com"
                                                          target="_blank">Xiaoying Riley</a> for developers
     </small>
 </footer>

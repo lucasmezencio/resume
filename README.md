@@ -1,177 +1,137 @@
 # Lucas Mezêncio
-## Senior PHP Developer
+## Back-End Developer
 
-> [about.me/lucasmezencio](http://about.me/lucasmezencio)
->
-> [linkedin.com/in/lucasmezencio](http://linkedin.com/in/lucasmezencio)
->
-> Gzira, Malta
+
+> [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio)
+> 
+> [github.com/lucasmezencio](https://github.com/lucasmezencio)
+> 
+> [fb.me/lucasmezencio](https://fb.me/lucasmezencio)
+> 
+> [twitter.com/lucasmezencio](https://twitter.com/lucasmezencio)
+> 
+> Estoril, Lisbon - Portugal
 >
 > [lucas.mezencio@gmail.com](mailto:lucas.mezencio@gmail.com)
 >
 > skype: lucas.mezencio
 >
-> +55 (31) 997 056 636
+> +356 9936 6809
 
 ------
-### Summary
+### Career Summary
 
-I am an experienced web developer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I try to focus on quality code always praising good practices, ensuring application performance and scalability.
-
-I love electronics and to play once in a while with my Arduino at home.
-
-I like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.
-
-I'm communicative, extroverted and friendly.
+I am an experienced web developer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I try to focus on quality code always praising good practices, ensuring application performance and scalability.<br><br>I like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.<br><br>I love electronics and playing once in a while with my Arduino at home.<br><br>I'm communicative, extroverted and friendly.
 
 ------
-### Experience
+### Work Experience
 
-* **[Blexr](https://www.blexr.com/)** *Senior PHP Developer* __Jan 2019 to present__
 
-    I've helped the team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.
+* **[Blexr Ltd.](https://googoe.com/)** *Senior PHP Developer* __2019-01-01 to Present__
 
-    Together with another senior developer, we've created a stable and '1-click' development environment with Docker.
+I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Configured a serverless app to handle HTTP redirects built on top of CloudFlare Workers.
 
-    Helped DevOps to create and set up pipelines for deployments, static code analysis and integration.
+***Technical Environment*** `PHP (vanilla, Symfony 5)`, `ShellScript (Bash)`, `Docker`, `MySQL`, `MariaDB`, `Git`, `GitLab CI`, `DevOps`, `AWS (SQS, RDS, Redshift, S3, ECS)`, `Redis`, 
 
-    Configured a serverless app to handle HTTP redirects.
+* **[XLabora Ltd. / BuddyAd](https://googoe.com/)** *Senior Full Stack Web Developer / Tech Lead* __2017-04-01 to 2018-10-01__
 
-    ***Technical Environment*** `PHP`, `ShellScript (Bash)`, `Laravel 5`, `Symfony 4`, `Doctrine`, `Docker`, `MySQL`, `MariaDB`, `Git`, `AWS (RDS, EC2, SQS, Elastic Beanstalk)`
+I've created an action-based access log system in the application. I optimised resource utilisation and application runtime by deploying a queuing system using Beanstalkd, later migrated to Amazon SQS.<br><br>Improved database organisation and modelling, along with query optimisation, significantly increasing application performance, also migrating the database to Amazon RDS.<br><br>I rewrote a good part of the application using clean code practices and software architecture to ensure a quick and performative application for the end user.<br><br>Reduced infrastructure costs by nearly 60% after optimisations.
 
-* **[XLabora Ltd.](http://www.xlabora.com) | [BuddyAd](http://www.buddyad.com)** *Senior Full Stack Web Developer | Tech Lead* __Apr 2017 to Oct 2018__
+***Technical Environment*** `PHP`, `ShellScript (Bash)`, `Laravel 5`, `Symfony 4`, `Doctrine`, `Docker`, `MySQL`, `MariaDB`, `Git`, `AWS (RDS, EC2, SQS, Elastic Beanstalk)`, 
 
-    I've created an action-based access log system in the application. I optimised resource utilisation and application runtime by deploying a queuing system using Beanstalkd, later migrated to Amazon SQS
+* **[Its4Company](https://googoe.com/)** *Senior Full Stack Web Developer* __2016-12-01 to 2017-03-01__
 
-    Improved database organisation and modelling, along with query optimisation, significantly increasing application performance, also migrating the database to Amazon RDS.
+I worked on the restructuring of the application used at the time, improving the coherence between the architecture and the organisation of the code. I created an interactive drawing application using JavaScript and canvas.
 
-    I rewrote a good part of the application using clean code practices and software architecture to ensure a quick and performative application for the end user.
+***Technical Environment*** `AngularJS`, `NodeJS`, `Git`, 
 
-    Reduced infrastructure costs by nearly 60% after optimisations.
+* **[PRODEMGE (Companhia de Tecnologia da Informação do Estado de Minas Gerais)](https://googoe.com/)** *Senior Developer* __2016-03-01 to 2016-12-01__
 
-    ***Technical Environment*** `PHP`, `ShellScript (Bash)`, `Laravel 5`, `Symfony 4`, `Doctrine`, `Docker`, `MySQL`, `MariaDB`, `Git`, `AWS (RDS, EC2, SQS, Elastic Beanstalk)`
+I worked with system analysts to help design features and tasks for the development team, always ensuring fast, concise deliveries.<br><br>I created a connection driver for CakePHP 3 to connect to Db2 for IBM z / OS banks, and I also collaborated with the Laravel Db2 project by adding the Db2 for IBM z / OS connection functionality.<br><br>I also worked with the infrastructure team to develop a code version control flow and Git deployment, and to optimise automated deploy routines with Jenkins.
 
-* **[Its4Company](http://www.its4.com)** *Senior Full Stack Web Developer* __Dev 2016 to Mar 2017__
+***Technical Environment*** `PHP`, `CakePHP 2/3`, `Laravel 5`, `Apache`, `Git`, `Oracle`, `Db2 for IBM z/OS`, 
 
-    I worked on the restructuring of the application used at the time, improving the coherence between the architecture and the organisation of the code. I created an interactive drawing application using JavaScript and canvas.
+* **[Fundep / UFMG - Universidade Federal de Minas Gerais](https://googoe.com/)** *Senior Full Stack Web Developer* __2015-08-01 to 2016-02-01__
 
-    ***Technical Environment*** `AngularJS 1`, `NodeJS`, `Git`
+I worked on the maintenance and development of new features, optimisation and refactoring of legacy code. I rewrote the entire back-office application from scratch using a completely new and more concise architecture.<br><br>I optimised the Continuous Integration process and deploy the application together with the infrastructure team.
 
-* **[PRODEMGE](http://www.prodemge.gov.br) (Companhia de Tecnologia da Informação do Estado de Minas Gerais)** *Senior Developer* __Mar 2015 to Feb 2016__
+***Technical Environment*** `PHP`, `ShellScript (Bash)`, `Zend Framework 2`, `Symfony 2`, `Doctrine`, `Vagrant`, `AngularJS`, `Apache`, `MySQL`, `Git`, `Ubuntu`, 
 
-    I worked with system analysts to help design features and tasks for the development team, always ensuring fast, concise deliveries.
+* **[Méliuz](https://googoe.com/)** *Software Engineer* __2014-08-01 to 2015-07-01__
 
-    I created a connection driver for CakePHP 3 to connect to Db2 for IBM z / OS banks, and I also collaborated with the Laravel Db2 project by adding the Db2 for IBM z / OS connection functionality.
+I created an access control system based on the routes of the application used in the back office. I also created a routine for backup of the production database in ShellScript.<br><br>I collaborated with the team's involvement in migrating version control to Github and creating a more coherent internal communication culture among the team.
 
-    I also worked with the infrastructure team to develop a code version control flow and Git deployment, and to optimise automated deploy routines with Jenkins.
+***Technical Environment*** `PHP`, `Python`, `Laravel 4`, `MySQL`, `MongoDB`, `Redis`, `Flask`, `Beanstalkd`, `ShellScript (Bash)`, `CentOS`, `Amazon Linux`, `Git`, 
 
-    ***Technical Environment*** `PHP`, `CakePHP 2/3`, `Laravel 5`, `Apache`, `Git`, `Oracle`, `Db2 for IBM z/OS`
+* **[Learncafe - Cursos Online](https://googoe.com/)** *System Analyst / Tech Lead / ScrumMaster* __2013-11-01 to 2014-08-01__
 
-* **[Fundep](http://www.fundep.ufmg.br) | [UFMG](http://www.ufmg.br)** *Senior Full Stack Web Developer* __Aug 2015 to Feb 2016__
+As a ScrumMaster and analyst, I organised the flow of development, increasing the team's productivity and thus ensuring more assertive, concise and fast deliveries.<br><br>I helped organise the entire legacy code, refactoring whenever possible using clean code techniques and software architecture. I also created a deployment flow for the Gitflow-based application. I also created the initial setup of the production servers, such as making better use of the machine resources to run the application.
 
-    I worked on the maintenance and development of new features, optimisation and refactoring of legacy code. I rewrote the entire back-office application from scratch using a completely new and more concise architecture.
+***Technical Environment*** `PHP`, `Zend Framework`, `MySQL`, `SOLR`, `Git`, 
 
-    I optimised the Continuous Integration process and deploy the application together with the infrastructure team.
+* **[JCHEBLY Comunicação e Mídia](https://googoe.com/)** *Developer and Analyst* __2012-09-01 to 2013-10-01__
 
-    ***Technical Environment*** `PHP`, `ShellScript (Bash)`, `Zend Framework 2`, `Symfony 2`, `Doctrine`, `Vagrant`, `AngularJS`, `Apache`, `MySQL`, `Git`, `Ubuntu.`
+I worked in the analysis and development of web applications focusing always on the best practices of software development, using cutting-edge technologies, always compatible with the needs of the clients.<br><br>In the part of project planning and management, I increased the productivity of the team by organising the flow of project development, applying project management methodologies and helping to build a fully qualified team.<br><br>Configuration and administration of Linux servers.
 
-* **[Méliuz](http://www.meliuz.com.br)** *Engineer* __Aug 2014 to Jul 2015__
+***Technical Environment*** `PHP`, `Symfony 2`, `MySQL`, `Doctrine`, `NodeJS`, `ExpressJS`, `MongoDB`, `Redis`, `Ubuntu`, `CentOS`, `Amazon Linux`, 
 
-    I created an access control system based on routes of the application used in the back office. I also created a routine for backup of the production database in ShellScript.
+* **[Bolt Brasil Comunicação Digital](https://googoe.com/)** *Developer and Analyst* __2011-06-01 to 2012-09-01__
 
-    I collaborated with the team's involvement in migrating version control to Github and creating a more coherent internal communication culture among the team.
+Analysis and development of systems web applications.<br><br>Configuration and administration of Linux servers.
 
-    ***Technical Environment*** `PHP`, `Python`, `Laravel 4`, `MySQL`, `MongoDB`, `Redis`, `Flask`, `Beanstalkd`, `ShellScript (Bash)`, `CentOS`,  `Git`
+***Technical Environment*** `PHP`, `Zend Framework`, `Wordpress`, `Doctrine 1`, `MySQL`, `Ubuntu`, 
 
-* **[Learncafe](http://www.learncafe.com)** *Systems Analyst* __Nov 2013 to Aug 2014__
+* **[useInternational](https://googoe.com/)** *Technology Information Developer* __2010-11-01 to 2011-06-01__
 
-    As a ScrumMaster and analyst, I organised the flow of development, increasing the productivity of the team and thus ensuring more assertive, concise and fast deliveries.
+Maintenance and development of new features, optimising and refactoring legacy code, helping to steady improvement project.
 
-    I helped organise the entire legacy code, refactoring whenever possible using clean code techniques and software architecture. I also created a deployment flow for the Gitflow-based application. I also created the initial setup of the production servers, such as making better use of the machine resources to run the application.
+***Technical Environment*** `PHP`, `Zend Framework`, `MySQL`, 
 
-    ***Technical Environment*** `PHP`, `Zend Framework`, `MySQL`, `SOLR`, `Git`
+* **[Plan B Comunicação](https://googoe.com/)** *Analista Desenvolvedor* __2010-09-01 to 2010-11-01__
 
-* **[JCHEBLY Comunicação e Mídia](http://www.jchebly.com.br)** *Analyst and Developer* __Sep 2012 to Oct 2013__
+Analysis and development of systems web applications.<br><br>Analysis, planning and project management.
 
-    Analysis and development of systems web applications.
+***Technical Environment*** `PHP`, `Codeigniter`, `Wordpress`, `MySQL`, `SQL Server 2005`, `ASP`, 
 
-    Configuration and administration of Linux servers.
+* **[Studio Sol Comunicação Digital](https://googoe.com/)** *Desenvolvedor Web* __2008-09-01 to 2010-07-01__
 
-    Analysis, planning and project management.
+Analysis and development of systems web applications.<br><br>Configuration and administration of Linux servers.<br><br>Analysis, planning and project management.
 
-    ***Technical Environment*** Symfony 2, MySQL, Doctrine 2, NodeJS, ExpressJS, MongoDB, Redis, Ubuntu, CentOS, Amazon Linux.
+***Technical Environment*** `PHP`, `Wordpress`, `MySQL`, `OpenSocial (orkut)`, `Memcached`, 
 
-* **[Bolt Brasil Comunicação Digital](http://www.bolt.com.br)** *Analyst and Developer* __Jun 2011 to Aug 2012__
-
-    Analysis and development of systems web applications.
-
-    Configuration and administration of Linux servers.
-
-    ***Technical Environment*** Zend Framework, Wordpress, Doctrine 1.2, MySQL, Ubuntu.
-
-* **useInternational Brasil** *IT Developer* __Nov 2010 to Jun 2011__
-
-    Maintenance and development of new features, optimising and refactoring legacy code, helping to steady improvement project.
-
-    ***Technical Environment*** Zend Framework, MySQL.
-
-* **[Plan B Comunicação](http://www.planb.com.br)** *Analyst and Developer* __Sep 2010 to Nov 2010__
-
-    Analysis and development of systems web applications.
-
-    Analysis, planning and project management.
-
-    ***Technical Environment*** Codeigniter, Wordpress, MySQL, SQL Server 2005, ASP.
-
-* **[Studio Sol Comunicação Digital](http://www.studiosol.com.br)** *Web Developer* __Sep 2008 to Aug 2010__
-
-    Analysis and development of systems web applications.
-
-    Configuration and administration of Linux servers.
-
-    Analysis, planning and project management.
-
-    ***Technical Environment*** PHP, Wordpress, MySQL, OpenSocial (orkut), Memcached.
-
-------
-### Certifications
-
-**Certified Scrum Master** __12/2013__
-    [*Scrum Alliance*](http://www.scrumalliance.org/community/profile/lmezencio)
 
 ------
 ### Education
 
-* **Full Stack Web Developer Nanodegree** __2017 to 2018 (expected)__
 
-    Udacity
+* **Analysis and Systems Development** __2013-01 - 2015-01 (not concluded)__
 
-* **Technology in Analysis and Systems Development** __2013 to 2016__
+Universidade Estácio de Sá
 
-    Universidade Estácio de Sá
+* **Technology in Development of Systems for Internet and Databases** __2006-01 - 2010-01 (not concluded)__
 
-* **Technology in Databases** __2013 (not concluded)__
+Faculdade Pitágoras
 
-    Faculdade Pitágoras
-
-* **Technology in Systems Development for Internet** __2006 to 2009 (not concluded)__
-
-    Faculdade INED
 
 ------
-### Technical Skills
+### Skills
 
-1. PHP *(Symfony 2, Zend Framework, Laravel 4.2, Zend Framework 2)*
-2. JavaScript *(NodeJS, Underscore, Express)*
-3. MySQL
-4. Linux *(CentOS, Ubuntu, Amazon Linux)*
-5. Git *(GitFlow)*
-6. CSS *(intermediate)*
-7. Python *(Flask)*
+1. *PHP* (11+ years)
+2. *JavaScript* (11+ years)
+3. *MySQL* (10+ years)
+4. *HTML* (11+ years)
+5. *CSS* (10+ years)
+6. *Linux* (7+ years)
+7. *Git* (6+ years)
+8. *Python* (6+ years)
+9. *DevOps* (4+ years)
+10. *Postgres* (3+ years)
+11. *Docker* (3+ years)
+
 
 ------
 ### Languages
 
-1. Portuguese *(native)*
-2. English *(fluent)*
-3. Spanish *(basic)*
+1. *Portuguese* (Native Speaker)
+2. *English* (Conversational)
+

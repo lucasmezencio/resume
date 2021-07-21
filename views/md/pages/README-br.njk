@@ -1,0 +1,15 @@
+{% set resume = resume.br %}
+{#{% set title = resume.basics.name + ' - Curriculum Vitae' %}#}
+{% set language = 'pt-br' %}
+{% set description = resume.basics.label %}
+{% set topics = {
+    summary: 'Resumo',
+    work: 'Experiência Profissional',
+    reference: 'Referências',
+    skills: 'Habilidades',
+    education: 'Educação',
+    languages: 'Idiomas',
+    interests: 'Interesses'
+} %}
+
+{% extends 'base.njk' %}

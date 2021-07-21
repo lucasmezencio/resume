@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  resume_node:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/usr/src/app
+    working_dir: /usr/src/app
+    container_name: resume_node
+
+networks:
+  resume_dev:

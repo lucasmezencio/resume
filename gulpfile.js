@@ -1,7 +1,7 @@
 const fs = require('fs')
 const gulp = require('gulp')
 const nunjucksRender = require('gulp-nunjucks-render')
-const sass = require('gulp-sass')
+const sass = require('gulp-sass')(require('sass'))
 const cleanCSS = require('gulp-clean-css')
 const sourcemaps = require('gulp-sourcemaps')
 const concat = require('gulp-concat')
@@ -15,8 +15,8 @@ const STATIC_PATH = '.'
  * @returns {{br: *, en: *}}
  */
 const loadJSON = () => {
-  let resumeBr = fs.readFileSync('resume-br.json')
-  let resumeEn = fs.readFileSync('resume-en.json')
+  let resumeBr = fs.readFileSync('resume-br.json').toString()
+  let resumeEn = fs.readFileSync('resume-en.json').toString()
 
   return {
     br: JSON.parse(resumeBr),
@@ -25,13 +25,13 @@ const loadJSON = () => {
 }
 
 /** General Tasks **/
-gulp.task('nunjucks', gulp.series((done) => {
-  gulp.src('./views/pages/**/*.njk')
+gulp.task('nunjucks-html', gulp.series((done) => {
+  gulp.src('./views/html/pages/**/*.njk')
     .pipe(nunjucksRender({
-      path: ['./views/templates'],
+      path: ['./views/html/templates'],
       data: {
-        resume: loadJSON()
-      }
+        resume: loadJSON(),
+      },
     }))
     .pipe(gulp.dest(`${STATIC_PATH}/`))
     .pipe(browserSync.stream())
@@ -39,14 +39,41 @@ gulp.task('nunjucks', gulp.series((done) => {
   done()
 }))
 
-gulp.task('nunjucks:watch', gulp.series((done) => {
-  gulp.watch('./views/**/*.njk', gulp.series('nunjucks'))
+gulp.task('nunjucks-html:watch', gulp.series((done) => {
+  gulp.watch('./views/html/**/*.njk', gulp.series('nunjucks-html'))
 
   done()
 }))
 
 gulp.task('json:watch', gulp.series((done) => {
-  gulp.watch('./resume*.json', gulp.series('nunjucks'))
+  gulp.watch('./resume*.json', gulp.series('nunjucks-html'))
+
+  done()
+}))
+
+gulp.task('nunjucks-md', gulp.series((done) => {
+  gulp.src('./views/md/pages/**/*.njk')
+    .pipe(nunjucksRender({
+      path: ['./views/md/templates'],
+      ext: '.md',
+      data: {
+        resume: loadJSON(),
+      },
+    }))
+    .pipe(gulp.dest(`${STATIC_PATH}/`))
+    .pipe(browserSync.stream())
+
+  done()
+}))
+
+gulp.task('nunjucks-md:watch', gulp.series((done) => {
+  gulp.watch('./views/md/**/*.njk', gulp.series('nunjucks-md'))
+
+  done()
+}))
+
+gulp.task('json:watch', gulp.series((done) => {
+  gulp.watch('./resume*.json', gulp.series('nunjucks-md'))
 
   done()
 }))
@@ -72,19 +99,7 @@ gulp.task('sass:watch', gulp.series((done) => {
 }))
 
 gulp.task('js', gulp.series((done) => {
-  let components = [
-    './node_modules/jquery/dist/jquery.slim.min.js',
-    './node_modules/popper.js/dist/umd/popper.min.js',
-    './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
-  ]
   let jsDest = `${STATIC_PATH}/js/`
-
-  gulp.src(components)
-    .pipe(concat('components.js'))
-    .pipe(rename('components.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest(jsDest))
-    .pipe(browserSync.stream())
 
   gulp.src('./assets/js/main.js')
     .pipe(concat('main.js'))
@@ -99,7 +114,7 @@ gulp.task('js', gulp.series((done) => {
 gulp.task('js:watch', gulp.series((done) => {
   gulp.watch('./assets/js/**/*.js', gulp.series('js'))
 
-  done();
+  done()
 }))
 
 gulp.task('browser-sync', gulp.series((done) => {
@@ -107,13 +122,15 @@ gulp.task('browser-sync', gulp.series((done) => {
     server: {
       baseDir: STATIC_PATH,
     },
+    open: false,
+    notify: false,
   })
 
   done()
 }))
 
-gulp.task('build', gulp.series('nunjucks', 'sass', 'js'))
-gulp.task('watch', gulp.series('nunjucks:watch', 'sass:watch', 'js:watch', 'json:watch'))
+gulp.task('build', gulp.series('nunjucks-html', 'nunjucks-md', 'sass', 'js'))
+gulp.task('watch', gulp.series('nunjucks-html:watch', 'nunjucks-md:watch', 'sass:watch', 'js:watch', 'json:watch'))
 
 /** Gulp Default **/
 gulp.task('default', gulp.series('build', 'watch', 'browser-sync'))

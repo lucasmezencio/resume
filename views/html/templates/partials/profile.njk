@@ -1,0 +1,7 @@
+<li class="mb-3">
+    <a class="text-link" href="{{ profile.url }}">
+        <span class="fa-container text-center me-2">
+            <i class="fab fa-{{ profile.network }} fa-fw"></i>
+        </span>{{ profile.url|replace('https://', '') }}
+    </a>
+</li>
