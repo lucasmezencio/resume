@@ -1,9 +1,9 @@
 # {{ resume.basics.name }}
-## {{ resume.basics.label }}
 
-{% for profile in resume.basics.profiles %}
-> [{{ profile.url|replace('https://', '') }}]({{ profile.url }})
-> {% endfor %}
+#### {{ resume.basics.label }}
+
+> {% for profile in resume.basics.profiles %}[{{ profile.url|replace('https://', '') }}]({{ profile.url }}){% if not loop.last %} | {% endif %}{% endfor %}
+>
 > {{ resume.basics.location.city }}, {{ resume.basics.location.region }} - {{ resume.basics.location.countryCode }}
 >
 > [{{ resume.basics.email }}](mailto:{{ resume.basics.email }})
@@ -12,24 +12,20 @@
 >
 > {{ resume.basics.phone }}
 
-------
-### {{ topics.summary }}
-
 {{ resume.basics.summary|replace("\n", '<br>')|safe }}
 
-------
-### {{ topics.work }}
+## {{ topics.work }}
 
 {% for work in resume.work %}
-* **[{{ work.company }}](https://googoe.com/)** *{{ work.position }}* __{{ work.startDate}} to {{ work.endDate or 'Present' }}__
+* **[{{ work.company }}](https://googoe.com/)** *{{ work.position }}* (__{{ work.startDate}} to {{ work.endDate or 'Present' }}__)
 
 {{ work.summary|replace("\n", '<br>')|safe }}
 
-***Technical Environment*** {% for technology in work.highlights %}`{{ technology }}`, {% endfor %}
+***Technical Environment*** {{ work.highlights|join(', ') }}
 {% endfor %}
 
 ------
-### {{ topics.education }}
+## {{ topics.education }}
 
 {% for education in resume.education %}
 * **{{ education.studyType }}** __{{ education.startDate }}{% if education.endDate %} - {{ education.endDate }}{% endif %}{% if not education.concluded %} (not concluded){% endif %}__
