@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Lucas Mezêncio",
-    "label": "Back-End Engineer",
+    "label": "Lead Software Engineer",
     "picture": "//secure.gravatar.com/avatar/9c0883cd34733c1fa9c66331904bdb40?s=420",
     "email": "eu@lucasmezencio.com",
     "summary": "I am an experienced web engineer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I try to focus on quality code always praising good practices, ensuring application performance and scalability.\n\nI like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.\n\nI love electronics and playing once in a while with my Arduino at home.\n\nI'm communicative, extroverted and friendly.",
@@ -10,7 +10,7 @@
       "region": "Lisbon",
       "countryCode": "Portugal"
     },
-    "phone": "+356 9936 6809",
+    "phone": "+351 938 232 024",
     "website": "https://about.me/lucasmezencio",
     "profiles": [
       {
@@ -37,10 +37,29 @@
   },
   "work": [
     {
+      "company": "KaFe.Rocks Ltd.",
+      "position": "Lead Software Engineer",
+      "summary": "",
+      "startDate": "2021-10-13",
+      "highlights": [
+        "PHP (Laravel 8)",
+        "Gatsby Cloud",
+        "ShellScript (Bash)",
+        "Docker",
+        "MySQL",
+        "Git",
+        "Bitbucket CI",
+        "DevOps",
+        "DigitalOcean",
+        "CloudFlare"
+      ]
+    },
+    {
       "company": "Blexr Ltd.",
       "position": "Senior PHP Engineer",
-      "summary": "I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.\n\nTogether with another senior developer, we've created a stable and '1-click' development environment with Docker.\n\nI've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.\n\nWorked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.\n\nConfigured a serverless app to handle HTTP redirects built on top of CloudFlare Workers.",
+      "summary": "I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.\n\nTogether with another senior developer, we've created a stable and '1-click' development environment with Docker.\n\nI've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.\n\nWorked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.\n\nManaged to improve up to 10x the response time of a web app (from 800ms to 8ms).",
       "startDate": "2019-01-01",
+      "endDate": "2021-10-09",
       "highlights": [
         "PHP (vanilla, Symfony 5)",
         "ShellScript (Bash)",
@@ -51,7 +70,8 @@
         "GitLab CI",
         "DevOps",
         "AWS (SQS, RDS, Redshift, S3, ECS)",
-        "Redis"
+        "Redis",
+        "CloudFlare"
       ]
     },
     {

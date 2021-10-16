@@ -3,7 +3,6 @@ FROM node:alpine
 RUN apk update && \
     apk upgrade && \
     apk add git g++ gcc libgcc libstdc++ linux-headers make python2 && \
-    apk update && \
     npm install npm@latest gulp gulp-cli -g
 
 # install libsass

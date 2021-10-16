@@ -15,8 +15,8 @@ const STATIC_PATH = '.'
  * @returns {{br: *, en: *}}
  */
 const loadJSON = () => {
-  let resumeBr = fs.readFileSync('resume-br.json').toString()
-  let resumeEn = fs.readFileSync('resume-en.json').toString()
+  let resumeBr = fs.readFileSync('./src/resume-br.json').toString()
+  let resumeEn = fs.readFileSync('./src/resume.json').toString()
 
   return {
     br: JSON.parse(resumeBr),
@@ -26,9 +26,9 @@ const loadJSON = () => {
 
 /** General Tasks **/
 gulp.task('nunjucks-html', gulp.series((done) => {
-  gulp.src('./views/html/pages/**/*.njk')
+  gulp.src('./src/views/html/pages/**/*.njk')
     .pipe(nunjucksRender({
-      path: ['./views/html/templates'],
+      path: ['./src/views/html/templates'],
       data: {
         resume: loadJSON(),
       },
@@ -40,15 +40,15 @@ gulp.task('nunjucks-html', gulp.series((done) => {
 }))
 
 gulp.task('nunjucks-html:watch', gulp.series((done) => {
-  gulp.watch('./views/html/**/*.njk', gulp.series('nunjucks-html'))
+  gulp.watch('./src/views/html/**/*.njk', gulp.series('nunjucks-html'))
 
   done()
 }))
 
 gulp.task('nunjucks-md', gulp.series((done) => {
-  gulp.src('./views/md/pages/**/*.njk')
+  gulp.src('./src/views/md/pages/**/*.njk')
     .pipe(nunjucksRender({
-      path: ['./views/md/templates'],
+      path: ['./src/views/md/templates'],
       ext: '.md',
       data: {
         resume: loadJSON(),
@@ -61,41 +61,41 @@ gulp.task('nunjucks-md', gulp.series((done) => {
 }))
 
 gulp.task('nunjucks-md:watch', gulp.series((done) => {
-  gulp.watch('./views/md/**/*.njk', gulp.series('nunjucks-md'))
+  gulp.watch('./src/views/md/**/*.njk', gulp.series('nunjucks-md'))
 
   done()
 }))
 
 gulp.task('json:watch', gulp.series((done) => {
-  gulp.watch('./resume*.json', gulp.series(['nunjucks-html', 'nunjucks-md']))
+  gulp.watch('./src/resume*.json', gulp.series(['nunjucks-html', 'nunjucks-md']))
 
   done()
 }))
 
 gulp.task('sass', gulp.series((done) => {
-  gulp.src('./assets/scss/*.scss')
+  gulp.src('./src/assets/scss/*.scss')
     .pipe(sass({
       outputStyle: 'compressed',
     }).on('error', sass.logError))
     .pipe(cleanCSS())
     .pipe(sourcemaps.write())
     .pipe(rename('main.min.css'))
-    .pipe(gulp.dest(`${STATIC_PATH}/css/`))
+    .pipe(gulp.dest(`${STATIC_PATH}/dist/css/`))
     .pipe(browserSync.stream())
 
   done()
 }))
 
 gulp.task('sass:watch', gulp.series((done) => {
-  gulp.watch('./assets/scss/**/*.scss', gulp.series('sass'))
+  gulp.watch('./src/assets/scss/**/*.scss', gulp.series('sass'))
 
   done()
 }))
 
 gulp.task('js', gulp.series((done) => {
-  let jsDest = `${STATIC_PATH}/js/`
+  let jsDest = `${STATIC_PATH}/dist/js/`
 
-  gulp.src('./assets/js/main.js')
+  gulp.src('./src/assets/js/main.js')
     .pipe(concat('main.js'))
     .pipe(rename('main.min.js'))
     .pipe(uglify())
@@ -106,7 +106,7 @@ gulp.task('js', gulp.series((done) => {
 }))
 
 gulp.task('js:watch', gulp.series((done) => {
-  gulp.watch('./assets/js/**/*.js', gulp.series('js'))
+  gulp.watch('./src/assets/js/**/*.js', gulp.series('js'))
 
   done()
 }))

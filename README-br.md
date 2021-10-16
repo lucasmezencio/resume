@@ -1,6 +1,6 @@
 # Lucas Mezêncio
 
-#### Back-End Web Engineer
+#### Lead Software Engineer
 
 > [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [twitter.com/lucasmezencio](https://twitter.com/lucasmezencio)
 >
@@ -10,16 +10,22 @@
 >
 > skype: lucas.mezencio
 >
-> +356 9936 6809
+> +351 938 232 024
 
 Sou um engenheiro web experiente, criando softwares desde 2008, com ampla experiência em desenvolvimento e manutenção de aplicações e sistemas web, sólidos conhecimentos em modelagem de dados, arquitetura de software e administração de servidores Linux. Procuro focar em código de qualidade sempre prezando por boas práticas, garantindo performance e escalabilidade de aplicações.<br><br>Certified ScrumMaster pela Scrum Alliance, acredito no Manifesto Ágil no desenvolvimento de softwares e principalmente na interação dos indivíduos no desenrolar do desenvolvimento. Grandes softwares são construídos em cima de grandes pessoas.<br><br>Expressões regulares é uma de minhas paixões, sou entusiasta Git e Software Livre, e gosto de eletrônica e de brincar de vez em quando com minha Arduino em casa. :)<br><br>Sou comunicativo, extrovertido e amigo.
 
 ## Experiência Profissional
 
 
-* **[Blexr Ltd.](https://googoe.com/)** *Senior PHP Developer* (__2019-01-01 to Present__)
+* **[KaFe.Rocks Ltd.](https://googoe.com/)** *Lead Software Engineer* (__2021-10-13 to Present__)
 
-I've helped the team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>Helped DevOps to create and set up pipelines for deployments, static code analysis and integration.<br><br>Configured a serverless app to handle HTTP redirects.
+
+
+***Technical Environment*** PHP (Laravel 8), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, Bitbucket CI, DevOps, DigitalOcean, CloudFlare
+
+* **[Blexr Ltd.](https://googoe.com/)** *Senior PHP Developer* (__2019-01-01 to 2021-10-09__)
+
+I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Managed to improve up to 10x the response time of a web app (from 800ms to 8ms).
 
 ***Technical Environment*** PHP (in-house framework), ShellScript (Bash), Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS, Apache Kafka, Redis
 

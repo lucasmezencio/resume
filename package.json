@@ -4,6 +4,8 @@
   "description": "My resume",
   "main": "null",
   "scripts": {
+    "build": "gulp build",
+    "watch": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,8 +22,8 @@
   },
   "homepage": "https://github.com/lucasmezencio/resume#readme",
   "devDependencies": {
-    "bootstrap": "^5.0.2",
-    "browser-sync": "^2.27.4",
+    "bootstrap": "^5.1.1",
+    "browser-sync": "^2.27.5",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
@@ -30,6 +32,6 @@
     "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "sass": "^1.35.2"
+    "sass": "^1.42.1"
   }
 }

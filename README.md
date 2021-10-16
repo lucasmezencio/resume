@@ -1,6 +1,6 @@
 # Lucas Mezêncio
 
-#### Back-End Engineer
+#### Lead Software Engineer
 
 > [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [twitter.com/lucasmezencio](https://twitter.com/lucasmezencio)
 >
@@ -10,18 +10,24 @@
 >
 > skype: lucas.mezencio
 >
-> +356 9936 6809
+> +351 938 232 024
 
 I am an experienced web engineer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I try to focus on quality code always praising good practices, ensuring application performance and scalability.<br><br>I like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.<br><br>I love electronics and playing once in a while with my Arduino at home.<br><br>I'm communicative, extroverted and friendly.
 
 ## Work Experience
 
 
-* **[Blexr Ltd.](https://googoe.com/)** *Senior PHP Engineer* (__2019-01-01 to Present__)
+* **[KaFe.Rocks Ltd.](https://googoe.com/)** *Lead Software Engineer* (__2021-10-13 to Present__)
 
-I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Configured a serverless app to handle HTTP redirects built on top of CloudFlare Workers.
 
-***Technical Environment*** PHP (vanilla, Symfony 5), ShellScript (Bash), Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS (SQS, RDS, Redshift, S3, ECS), Redis
+
+***Technical Environment*** PHP (Laravel 8), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, Bitbucket CI, DevOps, DigitalOcean, CloudFlare
+
+* **[Blexr Ltd.](https://googoe.com/)** *Senior PHP Engineer* (__2019-01-01 to 2021-10-09__)
+
+I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Managed to improve up to 10x the response time of a web app (from 800ms to 8ms).
+
+***Technical Environment*** PHP (vanilla, Symfony 5), ShellScript (Bash), Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS (SQS, RDS, Redshift, S3, ECS), Redis, CloudFlare
 
 * **[XLabora Ltd. / BuddyAd](https://googoe.com/)** *Senior Full Stack Web Engineer / Tech Lead* (__2017-04-01 to 2018-10-01__)
 
