@@ -1,6 +1,6 @@
 # Lucas Mezêncio
 
-#### Lead Software Engineer
+#### Software Engineer - Backend
 
 > [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [twitter.com/lucasmezencio](https://twitter.com/lucasmezencio)
 >
@@ -12,14 +12,14 @@
 >
 > +351 938 232 024
 
-I am an experienced web engineer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I try to focus on quality code always praising good practices, ensuring application performance and scalability.<br><br>I like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.<br><br>I love electronics and playing once in a while with my Arduino at home.<br><br>I'm communicative, extroverted and friendly.
+I am an experienced Software Engineer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I try to focus on quality code always praising good practices, ensuring application performance and scalability.<br><br>Leading and mentoring not only new but experienced Engineers is one of my passions too, it's a place where we can share experiences and knowledge while we move towards the same goal.<br><br>I like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.<br><br>I love electronics and playing once in a while with my Arduino at home.<br><br>I'm communicative, extroverted and friendly.
 
 ## Work Experience
 
 
-* **[KaFe.Rocks Ltd.](https://googoe.com/)** *Lead Software Engineer* (__2021-10-13 to Present__)
+* **[KaFe.Rocks Ltd.](https://googoe.com/)** *Lead Software Engineer - Backend* (__2021-10-13 to Present__)
 
-
+I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs.<br><br>I've been helping my team to achieve the best development practices, such as Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare.
 
 ***Technical Environment*** PHP (Laravel 8), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, Bitbucket CI, DevOps, DigitalOcean, CloudFlare
 
