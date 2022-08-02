@@ -19,15 +19,15 @@ I am an experienced Software Engineer, building software since 2008. I have expe
 
 * **[KaFe.Rocks Ltd.](https://googoe.com/)** *Lead Software Engineer - Backend* (__2021-10-13 to Present__)
 
-I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs.<br><br>I've been helping my team to achieve the best development practices, such as Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare.
+I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs.<br><br>I've been helping my team to achieve the best development practices, such as Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.
 
 ***Technical Environment*** PHP (Laravel 8), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, Bitbucket CI, DevOps, DigitalOcean, CloudFlare
 
 * **[Blexr Ltd.](https://googoe.com/)** *Senior PHP Engineer* (__2019-01-01 to 2021-10-09__)
 
-I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Managed to improve up to 10x the response time of a web app (from 800ms to 8ms).
+I've helped my team to achieve the best Software Development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Managed to improve up to 10x the response time of a web micro-service for redirects (from 800ms to 8ms).
 
-***Technical Environment*** PHP (vanilla, Symfony 5), ShellScript (Bash), Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS (SQS, RDS, Redshift, S3, ECS), Redis, CloudFlare
+***Technical Environment*** PHP (in-house framework, Symfony 5), ShellScript (Bash), Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS (SQS, RDS, Redshift, S3, ECS), Redis, Cloudflare (Workers)
 
 * **[XLabora Ltd. / BuddyAd](https://googoe.com/)** *Senior Full Stack Web Engineer / Tech Lead* (__2017-04-01 to 2018-10-01__)
 

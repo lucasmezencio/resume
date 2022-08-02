@@ -39,7 +39,7 @@
     {
       "company": "KaFe.Rocks Ltd.",
       "position": "Lead Software Engineer",
-      "summary": "",
+      "summary": "Tenho ajudado meu time alcançar o melhor ritmo e excelência em Desenvolvimento de Software enquanto os lidero para sempre mirar os objetivos da empresa equilibrando necessidades técnicas e de produto.\n\nTenho ajudado meu time a alcançar as melhores práticas de Desenvolvimento de Software, tais como Testes Unitários, Testes Ponta-a-Ponta, refatoração eficiente e princípios SOLID.\n\nCriei o plano de migração de VPS (DigitalOcean) para um ambiente em Nuvem Pública (AWS) visando a redução de custos e uma melhor visibilidade, integração e organização dos serviços garantindo a melhor performance e disponibilidade dos sistemas.\n\nNós desenvolvemos também um '1-click' Feature Environment (ambiente isolado para testes e QA) estável usando Laravel Forge e Cloudflare Workers.",
       "startDate": "2021-10-13",
       "highlights": [
         "PHP (Laravel 8)",
@@ -51,17 +51,18 @@
         "Bitbucket CI",
         "DevOps",
         "DigitalOcean",
-        "CloudFlare"
+        "AWS",
+        "Cloudflare (Workers)"
       ]
     },
     {
       "company": "Blexr Ltd.",
       "position": "Senior PHP Developer",
-      "summary": "I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.\n\nTogether with another senior developer, we've created a stable and '1-click' development environment with Docker.\n\nI've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.\n\nWorked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.\n\nManaged to improve up to 10x the response time of a web app (from 800ms to 8ms).",
+      "summary": "Eu ajudei meu time a alcançar as melhores práticas de Desenvolvimento de Software, tais como Testes Unitários, refatoração eficiente, e princípios SOLID.\n\nJunto com outro desenvolvedor sênior, nós criamos um ambiente de desenvolvimento '1-click' usando Docker.\n\nPlanejei, desenhei e executei a refatoração de um monolito em pequenos micro-serviços independentes, completamente escalonáveis e performáticos.\n\nTrabalhei junto com a equipe de DevOps para criar e configurar pipelines de implantações, análise estática de códigos e testes de integração.\n\nConsegui melhorar em 10x o tempo de resposta de um micro-serviço web de redirecionamentos (de 800ms para 8ms).",
       "startDate": "2019-01-01",
       "endDate": "2021-10-09",
       "highlights": [
-        "PHP (in-house framework)",
+        "PHP (in-house framework, Symfony 5)",
         "ShellScript (Bash)",
         "Docker",
         "MySQL",
@@ -69,9 +70,9 @@
         "Git",
         "GitLab CI",
         "DevOps",
-        "AWS",
-        "Apache Kafka",
-        "Redis"
+        "AWS (SQS, RDS, Redshift, S3, ECS)",
+        "Redis",
+        "Cloudflare (Workers)"
       ]
     },
     {

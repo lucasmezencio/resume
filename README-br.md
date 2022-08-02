@@ -19,15 +19,15 @@ Sou um engenheiro web experiente, criando softwares desde 2008, com ampla experi
 
 * **[KaFe.Rocks Ltd.](https://googoe.com/)** *Lead Software Engineer* (__2021-10-13 to Present__)
 
+Tenho ajudado meu time alcançar o melhor ritmo e excelência em Desenvolvimento de Software enquanto os lidero para sempre mirar os objetivos da empresa equilibrando necessidades técnicas e de produto.<br><br>Tenho ajudado meu time a alcançar as melhores práticas de Desenvolvimento de Software, tais como Testes Unitários, Testes Ponta-a-Ponta, refatoração eficiente e princípios SOLID.<br><br>Criei o plano de migração de VPS (DigitalOcean) para um ambiente em Nuvem Pública (AWS) visando a redução de custos e uma melhor visibilidade, integração e organização dos serviços garantindo a melhor performance e disponibilidade dos sistemas.<br><br>Nós desenvolvemos também um '1-click' Feature Environment (ambiente isolado para testes e QA) estável usando Laravel Forge e Cloudflare Workers.
 
-
-***Technical Environment*** PHP (Laravel 8), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, Bitbucket CI, DevOps, DigitalOcean, CloudFlare
+***Technical Environment*** PHP (Laravel 8), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, Bitbucket CI, DevOps, DigitalOcean, AWS, Cloudflare (Workers)
 
 * **[Blexr Ltd.](https://googoe.com/)** *Senior PHP Developer* (__2019-01-01 to 2021-10-09__)
 
-I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Managed to improve up to 10x the response time of a web app (from 800ms to 8ms).
+Eu ajudei meu time a alcançar as melhores práticas de Desenvolvimento de Software, tais como Testes Unitários, refatoração eficiente, e princípios SOLID.<br><br>Junto com outro desenvolvedor sênior, nós criamos um ambiente de desenvolvimento '1-click' usando Docker.<br><br>Planejei, desenhei e executei a refatoração de um monolito em pequenos micro-serviços independentes, completamente escalonáveis e performáticos.<br><br>Trabalhei junto com a equipe de DevOps para criar e configurar pipelines de implantações, análise estática de códigos e testes de integração.<br><br>Consegui melhorar em 10x o tempo de resposta de um micro-serviço web de redirecionamentos (de 800ms para 8ms).
 
-***Technical Environment*** PHP (in-house framework), ShellScript (Bash), Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS, Apache Kafka, Redis
+***Technical Environment*** PHP (in-house framework, Symfony 5), ShellScript (Bash), Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS (SQS, RDS, Redshift, S3, ECS), Redis, Cloudflare (Workers)
 
 * **[XLabora Ltd. / BuddyAd](https://googoe.com/)** *Desenvolvedor Web Full Stack Sênior / Líder Técnico* (__2017-04-01 to 2018-10-01__)
 

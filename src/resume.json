@@ -39,7 +39,7 @@
     {
       "company": "KaFe.Rocks Ltd.",
       "position": "Lead Software Engineer - Backend",
-      "summary": "I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs.\n\nI've been helping my team to achieve the best development practices, such as Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.\n\nWe've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare.",
+      "summary": "I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs.\n\nI've been helping my team to achieve the best development practices, such as Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.\n\nWe've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.",
       "startDate": "2021-10-13",
       "highlights": [
         "PHP (Laravel 8)",
@@ -57,11 +57,11 @@
     {
       "company": "Blexr Ltd.",
       "position": "Senior PHP Engineer",
-      "summary": "I've helped my team to achieve the best development practices, such as Unit Testing, efficient refactoring, and SOLID principles.\n\nTogether with another senior developer, we've created a stable and '1-click' development environment with Docker.\n\nI've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.\n\nWorked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.\n\nManaged to improve up to 10x the response time of a web app (from 800ms to 8ms).",
+      "summary": "I've helped my team to achieve the best Software Development practices, such as Unit Testing, efficient refactoring, and SOLID principles.\n\nTogether with another senior developer, we've created a stable and '1-click' development environment with Docker.\n\nI've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.\n\nWorked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.\n\nManaged to improve up to 10x the response time of a web micro-service for redirects (from 800ms to 8ms).",
       "startDate": "2019-01-01",
       "endDate": "2021-10-09",
       "highlights": [
-        "PHP (vanilla, Symfony 5)",
+        "PHP (in-house framework, Symfony 5)",
         "ShellScript (Bash)",
         "Docker",
         "MySQL",
@@ -71,7 +71,7 @@
         "DevOps",
         "AWS (SQS, RDS, Redshift, S3, ECS)",
         "Redis",
-        "CloudFlare"
+        "Cloudflare (Workers)"
       ]
     },
     {
