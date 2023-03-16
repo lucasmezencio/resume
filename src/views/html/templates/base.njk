@@ -3,7 +3,6 @@
 <head>
     <title>{{ title }}</title>
 
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,16 +10,10 @@
     <meta name="author" content="{{ resume.basics.name }}">
 
     <link rel="shortcut icon" href="favicon.ico">
-
-    <!-- Google Font -->
     <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-
-    <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
           crossorigin="anonymous">
-
-    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="dist/css/main.min.css">
 </head>
 
@@ -31,7 +24,7 @@
             <div class="row">
                 <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
                     <img class="picture" src="{{ resume.basics.picture }}" alt="Lucas laughing on his wedding.">
-                </div><!--//col-->
+                </div>
 
                 <div class="col">
                     <div class="row p-4 justify-content-center justify-content-md-between">
@@ -67,9 +60,9 @@
                                 {% endfor %}
                             </ul>
                         </div><!--//secondary-info-->
-                    </div><!--//row-->
-                </div><!--//col-->
-            </div><!--//row-->
+                    </div>
+                </div>
+            </div>
         </header>
 
         <div class="resume-body p-5">
@@ -85,7 +78,7 @@
 
             <div class="row">
                 <div class="col-lg-9">
-                    <section class="resume-section experience-section mb-5">
+                    <section class="resume-section experience-section mb-5 page-break">
                         <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
                             {{ topics.work }}
                         </h2>
@@ -99,7 +92,7 @@
                         </div>
                     </section><!--//experience-section-->
 
-                    <section class="resume-section experience-section mb-5">
+                    <section class="resume-section experience-section mb-5 page-break">
                         <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
                             {{ topics.reference }}
                         </h2>
@@ -175,7 +168,7 @@
                         </div>
                     </section><!--//interests-section-->
                 </div>
-            </div><!--//row-->
+            </div>
         </div><!--//resume-body-->
     </div>
 </article>
@@ -183,8 +176,8 @@
 <footer class="footer text-center pt-2 pb-5">
     <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
     <small class="copyright">
-        Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com"
-                                                         target="_blank">Xiaoying Riley</a> for developers
+        Designed with <i class="fas fa-heart"></i> by <a
+            href="https://themes.3rdwavemedia.com">Xiaoying Riley</a> for developers
     </small>
 </footer>
 </body>

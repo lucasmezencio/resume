@@ -17,7 +17,7 @@
 ## {{ topics.work }}
 
 {% for work in resume.work %}
-* **[{{ work.company }}](https://googoe.com/)** *{{ work.position }}* (__{{ work.startDate}} to {{ work.endDate or 'Present' }}__)
+* **[{{ work.company }}]({{ work.url }})** *{{ work.position }}* (__{{ work.startDate}} to {{ work.endDate or 'Present' }}__)
 
 {{ work.summary|replace("\n", '<br>')|safe }}
 

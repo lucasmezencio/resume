@@ -2,7 +2,9 @@
     <div class="resume-timeline-item-header mb-2">
         <div class="d-flex flex-column flex-md-row">
             <h3 class="resume-position-title font-weight-bold mb-1">{{ work.position }}</h3>
-            <div class="resume-company-name ms-auto text-md-end">{{ work.company }}</div>
+            <div class="resume-company-name ms-auto text-md-end">
+                <a href="{{ work.url }}">{{ work.company }}</a>
+            </div>
         </div><!--//row-->
 
         <div class="resume-position-time">{{ work.startDate }} - {{ work.endDate or 'Present' }}</div>
