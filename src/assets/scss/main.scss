@@ -39,4 +39,9 @@
   footer {
     display: none !important;
   }
+
+  .page-break {
+    clear: both;
+    page-break-before: always;
+  }
 }

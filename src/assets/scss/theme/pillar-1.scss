@@ -8,6 +8,7 @@
 */
 
 // Define theme colour scheme
+$theme-badge-text-color-light: #58677c;
 $theme-color-primary: #434E5E;
 $theme-text-color-primary: #434E5E;
 $theme-text-color-secondary: lighten($theme-text-color-primary, 10%);
@@ -66,12 +67,15 @@ a.text-link {
   background-color: darken($theme-color-primary, 20%);
 }
 
-a.theme-btn-on-bg, .theme-btn-on-bg {
+a.theme-btn-on-bg,
+.theme-btn-on-bg {
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
   border: none;
 
-  &:hover, &:focus, &:active {
+  &:hover,
+  &:focus,
+  &:active {
     background: rgba(0, 0, 0, 0.4);
     border-color: transparent;
     border: none;
@@ -97,7 +101,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 
 .resume-header {
   background: $theme-color-primary;
-  color: rgba(256, 256, 256, 0.9);
+  color: rgba(255, 255, 255, 0.9);
   height: 220px;
 
   .picture {
@@ -221,6 +225,11 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
   color: $theme-text-color-primary;
 }
 
+.badge-light {
+  color: $theme-badge-text-color-light;
+  background: $theme-bg-light;
+}
+
 .resume-degree {
   color: $theme-text-color-primary;
 }
@@ -232,10 +241,6 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 .resume-degree-time {
   color: $theme-text-color-light;
   font-size: 0.875rem;
-}
-
-.resume-awards-list {
-
 }
 
 .resume-award-icon {
@@ -272,6 +277,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
   .resume-header {
     height: auto;
   }
+
   .resume-header .picture {
     width: 120px;
     @include border-radius(4px);
