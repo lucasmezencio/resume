@@ -1,6 +1,6 @@
 # Lucas Mezêncio
 
-#### Lead Software Engineer
+#### Lead Software Engineer - Backend
 
 > [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [twitter.com/lucasmezencio](https://twitter.com/lucasmezencio)
 >
