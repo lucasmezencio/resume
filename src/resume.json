@@ -37,8 +37,8 @@
   },
   "work": [
     {
-      "company": "KaFe.Rocks Ltd.",
-      "url": "https://kafe.rocks/",
+      "company": "Time2Play Media Ltd.",
+      "url": "https://time2play.com/corporate/",
       "position": "Lead Software Engineer - Backend",
       "summary": "I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.\n\n Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).\n\nI've been helping my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.\n\nWe've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.",
       "startDate": "2021-10-13",

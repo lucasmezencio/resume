@@ -37,7 +37,8 @@
   },
   "work": [
     {
-      "company": "KaFe.Rocks Ltd.",
+      "company": "Time2Play Media Ltd.",
+      "url": "https://time2play.com/corporate/",
       "position": "Lead Software Engineer",
       "summary": "Tenho ajudado meu time alcançar o melhor ritmo e excelência em Desenvolvimento de Software enquanto os lidero para sempre mirar os objetivos da empresa equilibrando necessidades técnicas e de produto.\n\nTenho ajudado meu time a alcançar as melhores práticas de Desenvolvimento de Software, tais como Testes Unitários, Testes Ponta-a-Ponta, refatoração eficiente e princípios SOLID.\n\nCriei o plano de migração de VPS (DigitalOcean) para um ambiente em Nuvem Pública (AWS) visando a redução de custos e uma melhor visibilidade, integração e organização dos serviços garantindo a melhor performance e disponibilidade dos sistemas.\n\nNós desenvolvemos também um '1-click' Feature Environment (ambiente isolado para testes e QA) estável usando Laravel Forge e Cloudflare Workers.",
       "startDate": "2021-10-13",
@@ -57,6 +58,7 @@
     },
     {
       "company": "Blexr Ltd.",
+      "url": "https://blexr.com/",
       "position": "Senior PHP Developer",
       "summary": "Eu ajudei meu time a alcançar as melhores práticas de Desenvolvimento de Software, tais como Testes Unitários, refatoração eficiente, e princípios SOLID.\n\nJunto com outro desenvolvedor sênior, nós criamos um ambiente de desenvolvimento '1-click' usando Docker.\n\nPlanejei, desenhei e executei a refatoração de um monolito em pequenos micro-serviços independentes, completamente escalonáveis e performáticos.\n\nTrabalhei junto com a equipe de DevOps para criar e configurar pipelines de implantações, análise estática de códigos e testes de integração.\n\nConsegui melhorar em 10x o tempo de resposta de um micro-serviço web de redirecionamentos (de 800ms para 8ms).",
       "startDate": "2019-01-01",
@@ -77,6 +79,7 @@
     },
     {
       "company": "XLabora Ltd. / BuddyAd",
+      "url": "https://xlabora.com/",
       "position": "Desenvolvedor Web Full Stack Sênior / Líder Técnico",
       "summary": "Criei um sistema de log de acesso baseado em ações na aplicação. Otimizei a utilização de recursos e tempo de execução da aplicação implantando um sistema de filas utilizando Beanstalkd, posteriormente migrado para Amazon SQS.\n\nMelhorei a organização e modelagem do banco de dados, juntamente com a otimização de queries, aumentando significativamente a performance da aplicação, migrando também o banco de dados para Amazon RDS.\n\nReescrevi boa parte da aplicação utilizando de práticas de clean code e arquitetura de software para garantir uma aplicação rápida e performática para o usuário final.\n\nReduzi os custos com infraestrutura em quase 60% após as otimizações realizadas.",
       "startDate": "2017-04-01",
@@ -108,6 +111,7 @@
     },
     {
       "company": "PRODEMGE (Companhia de Tecnologia da Informação do Estado de Minas Gerais)",
+      "url": "https://prodemge.mg.gov.br/",
       "position": "Desenvolvedor Sênior",
       "summary": "Atuei em conjunto com os analistas de sistemas ajudando a elaborar features e tarefas para a equipe de desenvolvimento, garantindo sempre entregas rápidas e concisas.\n\nCriei um driver de conexão para CakePHP 3 para conectar em bancos Db2 for IBM z/OS, e também colaborei com o projeto Laravel Db2 adicionando a funcionalidade de conexão com Db2 for IBM z/OS.\n\nAtuei também em conjunto com a equipe de infraestrutura na elaboração de um fluxo de controle de versão de código e na implantação do Git, e na otimização das rotinas de deploy automatizado com Jenkins.",
       "startDate": "2016-03-01",
@@ -124,6 +128,7 @@
     },
     {
       "company": "Fundep / UFMG - Universidade Federal de Minas Gerais",
+      "url": "https://ufmg.br/",
       "position": "Desenvolvedor Web Full Stack Sênior",
       "summary": "Atuei na manutenção e desenvolvimento de novas features, otimização e refatoração de código legado. Reescrevi do zero toda a aplicação do backoffice, utilizando uma arquitetura completamente nova e mais concisa.\n\nOtimizei o processo de Integração Contínua e deploy da aplicação juntamente com a equipe de infra estrutura.",
       "startDate": "2015-08-01",
@@ -144,6 +149,7 @@
     },
     {
       "company": "Méliuz",
+      "url": "https://meliuz.com.br/",
       "position": "Programador Pleno",
       "summary": "Criei um sistema de controle de acesso baseado em rotas da aplicação utilizado no backoffice. Criei também uma rotina para backup do banco de dados de produção em ShellScript.\n\nColaborei com o engajamento do time ajudando na migração do controle de versão para o Github e na criação de uma cultura de comunicação interna mais coerente entre o time.",
       "startDate": "2014-08-01",
@@ -165,6 +171,7 @@
     },
     {
       "company": "Learncafe - Cursos Online",
+      "url": "https://learncafe.com/",
       "position": "Analista de Sistemas, Líder Técnico, ScrumMasters",
       "summary": "Como ScrumMaster e analista, organizei o fluxo de desenvolvimento, aumentando a produtividade do time e garantindo assim entregas mais assertivas, concisas e rápidas.\n\nAjudei na organização de todo o código legado, refatorando sempre que possível utilizando técnicas de clean code e arquitetura de software. Criei também um fluxo de deploy da aplicação baseado em Gitflow. Também criei a configuração inicial do servidores de produção, tal como melhor aproveitamento dos recursos da máquina para a execução da aplicação.",
       "startDate": "2013-11-01",
@@ -179,6 +186,7 @@
     },
     {
       "company": "JCHEBLY Comunicação e Mídia",
+      "url": "https://jchebly.com.br/",
       "position": "Analista de Sistemas e Desenvolvedor",
       "summary": "Atuei na análise e desenvolvimento de aplicações web focando sempre nas melhores práticas de desenvolvimento de software, utilizando tecnologias de ponta, sempre compatíveis com as necessidades dos clientes.\n\nNa parte de planejamento e gerenciamento de projetos, aumentei a produtividade do time organizando o fluxo de desenvolvimento dos projetos, aplicando metodologias de gerência de projetos e ajudando na construção de uma equipe totalmente capacitada.\n\nConfiguração e administração de servidores Linux.",
       "startDate": "2012-09-01",
@@ -226,6 +234,7 @@
     },
     {
       "company": "Plan B Comunicação",
+      "url": "https://planb.com.br/",
       "position": "Analista Desenvolvedor",
       "summary": "Análise e desenvolvimento de aplicações web.\n\nAnálise, planejamento e gerenciamento de projetos.",
       "startDate": "2010-09-01",
@@ -241,6 +250,7 @@
     },
     {
       "company": "Studio Sol Comunicação Digital",
+      "url": "https://studiosol.com.br/",
       "position": "Desenvolvedor Web",
       "summary": "Análise e desenvolvimento de aplicações web.\n\nConfiguração e administração de servidores Linux.\n\nAnálise, planejamento e gerenciamento de projetos.",
       "startDate": "2008-09-01",

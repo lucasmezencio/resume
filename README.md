@@ -17,7 +17,7 @@ I am an experienced Software Engineer, building software since 2008. I have expe
 ## Work Experience
 
 
-* **[KaFe.Rocks Ltd.](https://kafe.rocks/)** *Lead Software Engineer - Backend* (__2021-10-13 to Present__)
+* **[Time2Play Media Ltd.](https://time2play.com/corporate/)** *Lead Software Engineer - Backend* (__2021-10-13 to Present__)
 
 I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.<br><br> Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).<br><br>I've been helping my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.
 
