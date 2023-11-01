@@ -278,19 +278,46 @@
   ],
   "education": [
     {
+      "institution": "Instituto Superior de Tecnologias Avançadas - ISTEC",
+      "area": "Ciência da Computação",
+      "studyType": "Mestrado",
+      "startDate": "2022-11",
+      "courses": [
+        "Informática - Computação na Nuvem"
+      ],
+      "concluded": false
+    },
+    {
+      "institution": "Instituto Superior de Tecnologias Avançadas - ISTEC",
+      "area": "Ciência da Computação",
+      "studyType": "Pós-graduação",
+      "startDate": "2021-09",
+      "endDate": "2022-11",
+      "courses": [
+        "Virtualização e Computação na Nuvem"
+      ],
+      "concluded": true
+    },
+    {
       "institution": "Universidade Estácio de Sá",
       "area": "Ciência da Computação",
-      "studyType": "Análise e Desenvolvimento de Sistemas",
+      "studyType": "Bacharelado",
       "startDate": "2013-01",
       "endDate": "2015-01",
+      "courses": [
+        "Análise e Desenvolvimento de Sistemas"
+      ],
       "concluded": false
     },
     {
       "institution": "Faculdade Pitágoras",
-      "area": "Computação",
-      "studyType": "Tecnologia Desenvolvimento de Sistemas para Internet e Banco de Dados",
+      "area": "Ciência da Computação",
+      "studyType": "Bacharelado",
       "startDate": "2006-01",
       "endDate": "2010-01",
+      "courses": [
+        "Tecnologia em Desenvolvimento de Sistemas para Internet e Banco de Dados"
+      ],
       "concluded": false
     }
   ],

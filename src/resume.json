@@ -278,19 +278,46 @@
   ],
   "education": [
     {
+      "institution": "Instituto Superior de Tecnologias Avançadas - ISTEC",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2022-11",
+      "courses": [
+        "Computer Science - Cloud Computing"
+      ],
+      "concluded": false
+    },
+    {
+      "institution": "Instituto Superior de Tecnologias Avançadas - ISTEC",
+      "area": "Computer Science",
+      "studyType": "Postgraduate",
+      "startDate": "2021-09",
+      "endDate": "2022-11",
+      "courses": [
+        "Virtualisation and Cloud Computing"
+      ],
+      "concluded": true
+    },
+    {
       "institution": "Universidade Estácio de Sá",
       "area": "Computer Science",
-      "studyType": "Analysis and Systems Development",
+      "studyType": "Bachelor",
       "startDate": "2013-01",
       "endDate": "2015-01",
+      "courses": [
+        "Analysis and Systems Development"
+      ],
       "concluded": false
     },
     {
       "institution": "Faculdade Pitágoras",
       "area": "Computing",
-      "studyType": "Technology in Development of Systems for Internet and Databases",
+      "studyType": "Bachelor",
       "startDate": "2006-01",
       "endDate": "2010-01",
+      "courses": [
+        "Technology in Development of Systems for Internet and Databases"
+      ],
       "concluded": false
     }
   ],
