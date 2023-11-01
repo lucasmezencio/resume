@@ -28,7 +28,7 @@
 ## {{ topics.education }}
 
 {% for education in resume.education %}
-* **{{ education.studyType }}** __{{ education.startDate }}{% if education.endDate %} - {{ education.endDate }}{% endif %}{% if not education.concluded %} (not concluded){% endif %}__
+* **{{ education.studyType }} {{ 'in' if language === 'en' else 'em' }} {{ education.courses[0] }}** __{{ education.startDate }}{% if education.endDate %} - {{ education.endDate }}{% endif %}{% if not education.concluded %} (not concluded){% endif %}__
 
 {{ education.institution }}
 {% endfor %}
