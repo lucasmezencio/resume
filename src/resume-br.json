@@ -324,47 +324,51 @@
   "skills": [
     {
       "name": "PHP",
-      "level": "11+ anos"
+      "level": "15+ anos"
     },
     {
       "name": "JavaScript",
-      "level": "11+ anos"
+      "level": "15+ anos"
     },
     {
       "name": "MySQL",
-      "level": "10+ anos"
+      "level": "14+ anos"
     },
     {
-      "name": "HTML",
-      "level": "11+ anos"
-    },
-    {
-      "name": "CSS",
-      "level": "10+ anos"
+      "name": "TypeScript",
+      "level": "2+ anos"
     },
     {
       "name": "Linux",
-      "level": "7+ anos"
+      "level": "11+ anos"
     },
     {
       "name": "Git",
-      "level": "6+ anos"
+      "level": "10+ anos"
     },
     {
       "name": "Python",
-      "level": "6+ anos"
+      "level": "10+ anos"
     },
     {
       "name": "DevOps",
-      "level": "4+ anos"
+      "level": "9+ anos"
     },
     {
       "name": "Postgres",
-      "level": "3+ anos"
+      "level": "8+ anos"
     },
     {
       "name": "Docker",
-      "level": "3+ anos"
+      "level": "8+ anos"
+    },
+    {
+      "name": "AWS",
+      "level": "8+ anos"
+    },
+    {
+      "name": "Cloudflare",
+      "level": "5+ anos"
     }
   ],
   "languages": [
