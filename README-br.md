@@ -1,10 +1,10 @@
 # Lucas Mezêncio
 
-#### Lead Software Engineer - Backend
+#### Engenheiro de Software - Backend
 
 > [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [twitter.com/lucasmezencio](https://twitter.com/lucasmezencio)
 >
-> Estoril, Lisboa - Portugal
+> Lourinhã, Lisboa - Portugal
 >
 > [eu@lucasmezencio.com](mailto:eu@lucasmezencio.com)
 >
@@ -17,11 +17,17 @@ Sou um engenheiro web experiente, criando softwares desde 2008, com ampla experi
 ## Experiência Profissional
 
 
+* **[ZOLAR GmBH](https://zolar.de/)** *Senior Software Engineer - Backend* (__2023-09-01 to Present__)
+
+I've been working with my team to improve our workflow and deliver value to the business day-by-day, always challenging the team and keeping a healthy and relaxed work environment.<br><br>I've managed to help my Tech Lead help the whole team to deliver our very first sprint, before that, all the committed work wasn't being delivered due to miscalculation of team velocity and capacity planning.
+
+***Technical Environment*** NodeJS, TypeScript, Amazon API Gateway, Amazon DynamoDB, Apache Kafka, AWS CloudFormation, AWS Lambda, BitBucket CI, DataDog, Docker, Git
+
 * **[Time2Play Media Ltd.](https://time2play.com/corporate/)** *Lead Software Engineer* (__2021-10-13 to Present__)
 
 Tenho ajudado meu time alcançar o melhor ritmo e excelência em Desenvolvimento de Software enquanto os lidero para sempre mirar os objetivos da empresa equilibrando necessidades técnicas e de produto.<br><br>Tenho ajudado meu time a alcançar as melhores práticas de Desenvolvimento de Software, tais como Testes Unitários, Testes Ponta-a-Ponta, refatoração eficiente e princípios SOLID.<br><br>Criei o plano de migração de VPS (DigitalOcean) para um ambiente em Nuvem Pública (AWS) visando a redução de custos e uma melhor visibilidade, integração e organização dos serviços garantindo a melhor performance e disponibilidade dos sistemas.<br><br>Nós desenvolvemos também um '1-click' Feature Environment (ambiente isolado para testes e QA) estável usando Laravel Forge e Cloudflare Workers.
 
-***Technical Environment*** PHP (Laravel 8), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, Bitbucket CI, GitHub Actions, DevOps, DigitalOcean, CloudFlare
+***Technical Environment*** PHP (Laravel 8), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, BitBucket CI, GitHub Actions, DevOps, DigitalOcean, CloudFlare
 
 * **[Blexr Ltd.](https://blexr.com/)** *Senior PHP Developer* (__2019-01-01 to 2021-10-09__)
 
@@ -100,11 +106,19 @@ Análise e desenvolvimento de aplicações web.<br><br>Configuração e administ
 ## Educação
 
 
-* **Análise e Desenvolvimento de Sistemas** __2013-01 - 2015-01 (not concluded)__
+* **Mestrado em Informática - Computação na Nuvem** __2022-11 (not concluded)__
+
+Instituto Superior de Tecnologias Avançadas - ISTEC
+
+* **Pós-graduação em Virtualização e Computação na Nuvem** __2021-09 - 2022-11__
+
+Instituto Superior de Tecnologias Avançadas - ISTEC
+
+* **Bacharelado em Análise e Desenvolvimento de Sistemas** __2013-01 - 2015-01 (not concluded)__
 
 Universidade Estácio de Sá
 
-* **Tecnologia Desenvolvimento de Sistemas para Internet e Banco de Dados** __2006-01 - 2010-01 (not concluded)__
+* **Bacharelado em Tecnologia em Desenvolvimento de Sistemas para Internet e Banco de Dados** __2006-01 - 2010-01 (not concluded)__
 
 Faculdade Pitágoras
 
@@ -112,17 +126,18 @@ Faculdade Pitágoras
 ------
 ### Habilidades
 
-1. *PHP* (11+ anos)
-2. *JavaScript* (11+ anos)
-3. *MySQL* (10+ anos)
-4. *HTML* (11+ anos)
-5. *CSS* (10+ anos)
-6. *Linux* (7+ anos)
-7. *Git* (6+ anos)
-8. *Python* (6+ anos)
-9. *DevOps* (4+ anos)
-10. *Postgres* (3+ anos)
-11. *Docker* (3+ anos)
+1. *PHP* (15+ anos)
+2. *JavaScript* (15+ anos)
+3. *MySQL* (14+ anos)
+4. *TypeScript* (2+ anos)
+5. *Linux* (11+ anos)
+6. *Git* (10+ anos)
+7. *Python* (10+ anos)
+8. *DevOps* (9+ anos)
+9. *Postgres* (8+ anos)
+10. *Docker* (8+ anos)
+11. *AWS* (8+ anos)
+12. *Cloudflare* (5+ anos)
 
 
 ------

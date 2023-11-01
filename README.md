@@ -1,10 +1,10 @@
 # Lucas Mezêncio
 
-#### Lead Software Engineer - Backend
+#### Software Engineer - Backend
 
 > [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [twitter.com/lucasmezencio](https://twitter.com/lucasmezencio)
 >
-> Estoril, Lisbon - Portugal
+> Lourinhã, Lisbon - Portugal
 >
 > [eu@lucasmezencio.com](mailto:eu@lucasmezencio.com)
 >
@@ -17,11 +17,17 @@ I am an experienced Software Engineer, building software since 2008. I have expe
 ## Work Experience
 
 
-* **[Time2Play Media Ltd.](https://time2play.com/corporate/)** *Lead Software Engineer - Backend* (__2021-10-13 to Present__)
+* **[ZOLAR GmBH](https://zolar.de/)** *Senior Software Engineer - Backend* (__2023-09-01 to Present__)
+
+I've been working with my team to improve our workflow and deliver value to the business day-by-day, always challenging the team and keeping a healthy and relaxed work environment.<br><br>I've managed to help my Tech Lead help the whole team to deliver our very first sprint, before that, all the committed work wasn't being delivered due to miscalculation of team velocity and capacity planning.
+
+***Technical Environment*** NodeJS, TypeScript, Amazon API Gateway, Amazon DynamoDB, Apache Kafka, AWS CloudFormation, AWS Lambda, BitBucket CI, DataDog, Docker, Git
+
+* **[Time2Play Media Ltd. (former KaFe.Rocks Ltd.)](https://time2play.com/corporate/)** *Lead Software Engineer - Backend* (__2021-10-13 to 2023-08-31__)
 
 I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.<br><br> Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).<br><br>I've been helping my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.
 
-***Technical Environment*** PHP (Laravel 9), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, Bitbucket CI, GitHub Actions, DevOps, DigitalOcean, CloudFlare
+***Technical Environment*** PHP (Laravel 9), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, BitBucket CI, GitHub Actions, DevOps, DigitalOcean, CloudFlare
 
 * **[Blexr Ltd.](https://blexr.com/)** *Senior PHP Engineer* (__2019-01-01 to 2021-10-09__)
 
@@ -100,11 +106,19 @@ Analysis and development of systems web applications.<br><br>Configuration and a
 ## Education
 
 
-* **Analysis and Systems Development** __2013-01 - 2015-01 (not concluded)__
+* **Master in Computer Science - Cloud Computing** __2022-11 (not concluded)__
+
+Instituto Superior de Tecnologias Avançadas - ISTEC
+
+* **Postgraduate in Virtualisation and Cloud Computing** __2021-09 - 2022-11__
+
+Instituto Superior de Tecnologias Avançadas - ISTEC
+
+* **Bachelor in Analysis and Systems Development** __2013-01 - 2015-01 (not concluded)__
 
 Universidade Estácio de Sá
 
-* **Technology in Development of Systems for Internet and Databases** __2006-01 - 2010-01 (not concluded)__
+* **Bachelor in Technology in Development of Systems for Internet and Databases** __2006-01 - 2010-01 (not concluded)__
 
 Faculdade Pitágoras
 
@@ -112,17 +126,18 @@ Faculdade Pitágoras
 ------
 ### Skills
 
-1. *PHP* (11+ years)
-2. *JavaScript* (11+ years)
-3. *MySQL* (10+ years)
-4. *HTML* (11+ years)
-5. *CSS* (10+ years)
-6. *Linux* (7+ years)
-7. *Git* (6+ years)
-8. *Python* (6+ years)
-9. *DevOps* (4+ years)
-10. *Postgres* (3+ years)
-11. *Docker* (3+ years)
+1. *PHP* (15+ years)
+2. *JavaScript* (15+ years)
+3. *MySQL* (14+ years)
+4. *TypeScript* (2+ years)
+5. *Linux* (11+ years)
+6. *Git* (10+ years)
+7. *Python* (10+ years)
+8. *DevOps* (9+ years)
+9. *Postgres* (8+ years)
+10. *Docker* (8+ years)
+11. *AWS* (8+ years)
+12. *Cloudflare* (5+ years)
 
 
 ------
