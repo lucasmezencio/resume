@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Lucas Mezêncio",
-    "label": "Lead Software Engineer - Backend",
+    "label": "Software Engineer - Backend",
     "picture": "//secure.gravatar.com/avatar/9c0883cd34733c1fa9c66331904bdb40?s=420",
     "email": "eu@lucasmezencio.com",
     "summary": "I am an experienced Software Engineer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I'm focused on quality code always praising good practices, ensuring application performance and scalability.\n\nLeading and mentoring not only new but experienced Engineers is one of my passions too, it's a place where we can share experiences and knowledge while we move towards the same goal, supporting them to grow professionally and also personally. \n\nI like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.\n\nI love electronics and playing once in a while with my Arduino at home.\n\nI'm communicative, extroverted and friendly.",
@@ -37,11 +37,32 @@
   },
   "work": [
     {
-      "company": "Time2Play Media Ltd.",
+      "company": "ZOLAR GmBH",
+      "url": "https://zolar.de/",
+      "position": "Senior Software Engineer - Backend",
+      "summary": "I've been working with my team to improve our workflow and deliver value to the business day-by-day, always challenging the team and keeping a healthy and relaxed work environment.\n\nI've managed to help my Tech Lead help the whole team to deliver our very first sprint, before that, all the committed work wasn't being delivered due to miscalculation of team velocity and capacity planning.",
+      "startDate": "2023-09-01",
+      "highlights": [
+        "NodeJS",
+        "TypeScript",
+        "Amazon API Gateway",
+        "Amazon DynamoDB",
+        "Apache Kafka",
+        "AWS CloudFormation",
+        "AWS Lambda",
+        "BitBucket CI",
+        "DataDog",
+        "Docker",
+        "Git"
+      ]
+    },
+    {
+      "company": "Time2Play Media Ltd. (former KaFe.Rocks Ltd.)",
       "url": "https://time2play.com/corporate/",
       "position": "Lead Software Engineer - Backend",
       "summary": "I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.\n\n Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).\n\nI've been helping my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.\n\nWe've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.",
       "startDate": "2021-10-13",
+      "endDate": "2023-08-31",
       "highlights": [
         "PHP (Laravel 9)",
         "Gatsby Cloud",
@@ -49,7 +70,7 @@
         "Docker",
         "MySQL",
         "Git",
-        "Bitbucket CI",
+        "BitBucket CI",
         "GitHub Actions",
         "DevOps",
         "DigitalOcean",

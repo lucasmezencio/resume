@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Lucas Mezêncio",
-    "label": "Lead Software Engineer - Backend",
+    "label": "Engenheiro de Software - Backend",
     "picture": "//secure.gravatar.com/avatar/9c0883cd34733c1fa9c66331904bdb40?s=420",
     "email": "eu@lucasmezencio.com",
     "summary": "Sou um engenheiro web experiente, criando softwares desde 2008, com ampla experiência em desenvolvimento e manutenção de aplicações e sistemas web, sólidos conhecimentos em modelagem de dados, arquitetura de software e administração de servidores Linux. Procuro focar em código de qualidade sempre prezando por boas práticas, garantindo performance e escalabilidade de aplicações.\n\nCertified ScrumMaster pela Scrum Alliance, acredito no Manifesto Ágil no desenvolvimento de softwares e principalmente na interação dos indivíduos no desenrolar do desenvolvimento. Grandes softwares são construídos em cima de grandes pessoas.\n\nExpressões regulares é uma de minhas paixões, sou entusiasta Git e Software Livre, e gosto de eletrônica e de brincar de vez em quando com minha Arduino em casa. :)\n\nSou comunicativo, extrovertido e amigo.",
@@ -37,6 +37,26 @@
   },
   "work": [
     {
+      "company": "ZOLAR GmBH",
+      "url": "https://zolar.de/",
+      "position": "Senior Software Engineer - Backend",
+      "summary": "I've been working with my team to improve our workflow and deliver value to the business day-by-day, always challenging the team and keeping a healthy and relaxed work environment.\n\nI've managed to help my Tech Lead help the whole team to deliver our very first sprint, before that, all the committed work wasn't being delivered due to miscalculation of team velocity and capacity planning.",
+      "startDate": "2023-09-01",
+      "highlights": [
+        "NodeJS",
+        "TypeScript",
+        "Amazon API Gateway",
+        "Amazon DynamoDB",
+        "Apache Kafka",
+        "AWS CloudFormation",
+        "AWS Lambda",
+        "BitBucket CI",
+        "DataDog",
+        "Docker",
+        "Git"
+      ]
+    },
+    {
       "company": "Time2Play Media Ltd.",
       "url": "https://time2play.com/corporate/",
       "position": "Lead Software Engineer",
@@ -49,7 +69,7 @@
         "Docker",
         "MySQL",
         "Git",
-        "Bitbucket CI",
+        "BitBucket CI",
         "GitHub Actions",
         "DevOps",
         "DigitalOcean",
