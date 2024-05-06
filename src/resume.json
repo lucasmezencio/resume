@@ -60,11 +60,15 @@
       "company": "Time2Play Media Ltd. (former KaFe.Rocks Ltd.)",
       "url": "https://time2play.com/corporate/",
       "position": "Lead Software Engineer - Backend",
-      "summary": "I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.\n\n Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).\n\nI've been helping my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.\n\nWe've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.",
+      "summary": "I've helped my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.\n\n Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).\n\nI've helped my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.\n\nWe've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.",
       "startDate": "2021-10-13",
       "endDate": "2023-08-31",
       "highlights": [
-        "PHP (Laravel 9)",
+        "PHP 8.1",
+        "Laravel 9",
+        "NodeJS",
+        "TypeScript",
+        "JavaScript",
         "Gatsby Cloud",
         "ShellScript (Bash)",
         "Docker",
@@ -85,8 +89,11 @@
       "startDate": "2019-01-01",
       "endDate": "2021-10-09",
       "highlights": [
-        "PHP (in-house framework, Symfony 5)",
+        "PHP 7 and 8 (in-house framework, Symfony 5)",
         "ShellScript (Bash)",
+        "NodeJS",
+        "JavaScript",
+        "TypeScript",
         "Docker",
         "MySQL",
         "MariaDB",
@@ -95,7 +102,7 @@
         "DevOps",
         "AWS (SQS, RDS, Redshift, S3, ECS)",
         "Redis",
-        "Cloudflare (Workers)"
+        "Cloudflare"
       ]
     },
     {
@@ -108,6 +115,8 @@
       "highlights": [
         "PHP",
         "ShellScript (Bash)",
+        "NodeJS",
+        "JavaScript",
         "Laravel 5",
         "Symfony 4",
         "Doctrine",
@@ -127,6 +136,7 @@
       "highlights": [
         "AngularJS",
         "NodeJS",
+        "JavaScript",
         "Git"
       ]
     },
@@ -157,6 +167,7 @@
       "highlights": [
         "PHP",
         "ShellScript (Bash)",
+        "JavaScript",
         "Zend Framework 2",
         "Symfony 2",
         "Doctrine",
@@ -199,6 +210,7 @@
       "endDate": "2014-08-01",
       "highlights": [
         "PHP",
+        "JavaScript",
         "Zend Framework",
         "MySQL",
         "SOLR",
@@ -219,6 +231,7 @@
         "Doctrine",
         "NodeJS",
         "ExpressJS",
+        "JavaScript",
         "MongoDB",
         "Redis",
         "Ubuntu",
@@ -278,6 +291,7 @@
       "endDate": "2010-07-01",
       "highlights": [
         "PHP",
+        "JavaScript",
         "Wordpress",
         "MySQL",
         "OpenSocial (orkut)",
@@ -357,7 +371,7 @@
     },
     {
       "name": "TypeScript",
-      "level": "2+ years"
+      "level": "4+ years"
     },
     {
       "name": "Linux",
@@ -399,7 +413,7 @@
     },
     {
       "name": "English",
-      "level": "Conversational"
+      "level": "Fluent"
     }
   ],
   "interests": [
