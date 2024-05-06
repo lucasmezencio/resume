@@ -25,27 +25,27 @@ I've been working with my team to improve our workflow and deliver value to the 
 
 * **[Time2Play Media Ltd. (former KaFe.Rocks Ltd.)](https://time2play.com/corporate/)** *Lead Software Engineer - Backend* (__2021-10-13 to 2023-08-31__)
 
-I've been helping my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.<br><br> Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).<br><br>I've been helping my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.
+I've helped my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.<br><br> Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).<br><br>I've helped my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.
 
-***Technical Environment*** PHP (Laravel 9), Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, BitBucket CI, GitHub Actions, DevOps, DigitalOcean, CloudFlare
+***Technical Environment*** PHP 8.1, Laravel 9, NodeJS, TypeScript, JavaScript, Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, BitBucket CI, GitHub Actions, DevOps, DigitalOcean, CloudFlare
 
 * **[Blexr Ltd.](https://blexr.com/)** *Senior PHP Engineer* (__2019-01-01 to 2021-10-09__)
 
 I've helped my team to achieve the best Software Development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Managed to improve up to 10x the response time of a web micro-service for redirects (from 800ms to 8ms).
 
-***Technical Environment*** PHP (in-house framework, Symfony 5), ShellScript (Bash), Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS (SQS, RDS, Redshift, S3, ECS), Redis, Cloudflare (Workers)
+***Technical Environment*** PHP 7 and 8 (in-house framework, Symfony 5), ShellScript (Bash), NodeJS, JavaScript, TypeScript, Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS (SQS, RDS, Redshift, S3, ECS), Redis, Cloudflare
 
 * **[XLabora Ltd. / BuddyAd](https://xlabora.com/)** *Senior Full Stack Web Engineer / Tech Lead* (__2017-04-01 to 2018-10-01__)
 
 I've created an action-based access log system in the application. I optimised resource utilisation and application runtime by deploying a queuing system using Beanstalkd, later migrated to Amazon SQS.<br><br>Improved database organisation and modelling, along with query optimisation, significantly increasing application performance, also migrating the database to Amazon RDS.<br><br>I rewrote a good part of the application using clean code practices and software architecture to ensure a quick and performative application for the end user.<br><br>Reduced infrastructure costs by nearly 60% after optimisations.
 
-***Technical Environment*** PHP, ShellScript (Bash), Laravel 5, Symfony 4, Doctrine, Docker, MySQL, MariaDB, Git, AWS (RDS, EC2, SQS, Elastic Beanstalk)
+***Technical Environment*** PHP, ShellScript (Bash), NodeJS, JavaScript, Laravel 5, Symfony 4, Doctrine, Docker, MySQL, MariaDB, Git, AWS (RDS, EC2, SQS, Elastic Beanstalk)
 
 * **[Its4Company]()** *Senior Full Stack Web Engineer* (__2016-12-01 to 2017-03-01__)
 
 I worked on the restructuring of the application used at the time, improving the coherence between the architecture and the organisation of the code. I created an interactive drawing application using JavaScript and canvas.
 
-***Technical Environment*** AngularJS, NodeJS, Git
+***Technical Environment*** AngularJS, NodeJS, JavaScript, Git
 
 * **[PRODEMGE (Companhia de Tecnologia da Informação do Estado de Minas Gerais)](https://prodemge.mg.gov.br/)** *Senior Developer* (__2016-03-01 to 2016-12-01__)
 
@@ -57,7 +57,7 @@ I worked with system analysts to help design features and tasks for the developm
 
 I worked on the maintenance and development of new features, optimisation and refactoring of legacy code. I rewrote the entire back-office application from scratch using a completely new and more concise architecture.<br><br>I optimised the Continuous Integration process and deploy the application together with the infrastructure team.
 
-***Technical Environment*** PHP, ShellScript (Bash), Zend Framework 2, Symfony 2, Doctrine, Vagrant, AngularJS, Apache, MySQL, Git, Ubuntu
+***Technical Environment*** PHP, ShellScript (Bash), JavaScript, Zend Framework 2, Symfony 2, Doctrine, Vagrant, AngularJS, Apache, MySQL, Git, Ubuntu
 
 * **[Méliuz](https://meliuz.com.br/)** *Software Engineer* (__2014-08-01 to 2015-07-01__)
 
@@ -69,13 +69,13 @@ I created an access control system based on the routes of the application used i
 
 As a ScrumMaster and analyst, I organised the flow of development, increasing the team's productivity and thus ensuring more assertive, concise and fast deliveries.<br><br>I helped organise the entire legacy code, refactoring whenever possible using clean code techniques and software architecture. I also created a deployment flow for the Gitflow-based application. I also created the initial setup of the production servers, such as making better use of the machine resources to run the application.
 
-***Technical Environment*** PHP, Zend Framework, MySQL, SOLR, Git
+***Technical Environment*** PHP, JavaScript, Zend Framework, MySQL, SOLR, Git
 
 * **[JCHEBLY Comunicação e Mídia](https://jchebly.com.br/)** *Developer and Analyst* (__2012-09-01 to 2013-10-01__)
 
 I worked in the analysis and development of web applications focusing always on the best practices of software development, using cutting-edge technologies, always compatible with the needs of the clients.<br><br>In the part of project planning and management, I increased the productivity of the team by organising the flow of project development, applying project management methodologies and helping to build a fully qualified team.<br><br>Configuration and administration of Linux servers.
 
-***Technical Environment*** PHP, Symfony 2, MySQL, Doctrine, NodeJS, ExpressJS, MongoDB, Redis, Ubuntu, CentOS, Amazon Linux
+***Technical Environment*** PHP, Symfony 2, MySQL, Doctrine, NodeJS, ExpressJS, JavaScript, MongoDB, Redis, Ubuntu, CentOS, Amazon Linux
 
 * **[Bolt Brasil Comunicação Digital]()** *Developer and Analyst* (__2011-06-01 to 2012-09-01__)
 
@@ -99,7 +99,7 @@ Analysis and development of systems web applications.<br><br>Analysis, planning 
 
 Analysis and development of systems web applications.<br><br>Configuration and administration of Linux servers.<br><br>Analysis, planning and project management.
 
-***Technical Environment*** PHP, Wordpress, MySQL, OpenSocial (orkut), Memcached
+***Technical Environment*** PHP, JavaScript, Wordpress, MySQL, OpenSocial (orkut), Memcached
 
 
 ------
@@ -129,7 +129,7 @@ Faculdade Pitágoras
 1. *PHP* (15+ years)
 2. *JavaScript* (15+ years)
 3. *MySQL* (14+ years)
-4. *TypeScript* (2+ years)
+4. *TypeScript* (4+ years)
 5. *Linux* (11+ years)
 6. *Git* (10+ years)
 7. *Python* (10+ years)
@@ -144,5 +144,5 @@ Faculdade Pitágoras
 ### Languages
 
 1. *Portuguese* (Native Speaker)
-2. *English* (Conversational)
+2. *English* (Fluent)
 
