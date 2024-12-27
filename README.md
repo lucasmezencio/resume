@@ -2,7 +2,7 @@
 
 #### Software Engineer - Backend
 
-> [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [twitter.com/lucasmezencio](https://twitter.com/lucasmezencio)
+> [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [x.com/lucasmezencio](https://x.com/lucasmezencio)
 >
 > Lourinhã, Lisbon - Portugal
 >
@@ -12,26 +12,32 @@
 >
 > +351 938 232 024
 
-I am an experienced Software Engineer, building software since 2008. I have experience developing and maintaining systems and web applications, solid knowledge of data modelling and Linux servers administration. Besides that I'm focused on quality code always praising good practices, ensuring application performance and scalability.<br><br>Leading and mentoring not only new but experienced Engineers is one of my passions too, it's a place where we can share experiences and knowledge while we move towards the same goal, supporting them to grow professionally and also personally. <br><br>I like (and I know) regular expressions and I am a Git and Free and Open Source Software enthusiastic, Certified ScrumMaster by Scrum Alliance, spreading the Agile Manifesto in software development and especially the interaction of individuals in the course of development, and that great software are built on top of great people.<br><br>I love electronics and playing once in a while with my Arduino at home.<br><br>I'm communicative, extroverted and friendly.
+I am a seasoned Backend Software Engineer with extensive experience since 2008 in developing robust systems and web applications. My expertise spans data modelling, Linux server administration, and enforcing coding best practices to enhance application performance and scalability.<br><br>I am passionate about leading and mentoring diverse engineering teams, fostering a collaborative environment that encourages knowledge sharing and professional growth.<br><br>I am also a strong proponent of Agile principles and open source software, continuously advocating for practices that improve team interactions and software quality.<br><br>Engaging in electronics as a hobby, applying my technical skills to personal projects with Arduino.
 
 ## Work Experience
 
 
-* **[ZOLAR GmBH](https://zolar.de/)** *Senior Software Engineer - Backend* (__2023-09-01 to Present__)
+* **[LastPass Portugal Lda.](https://lastpass.com/)** *Senior Software Engineer* (__2024-06-03 to Present__)
 
-I've been working with my team to improve our workflow and deliver value to the business day-by-day, always challenging the team and keeping a healthy and relaxed work environment.<br><br>I've managed to help my Tech Lead help the whole team to deliver our very first sprint, before that, all the committed work wasn't being delivered due to miscalculation of team velocity and capacity planning.
+Part of the team responsible for the SSO (Single Sign-on) and MFA (Multi-factor Authentication) API, creating and maintaining all the features for this section.<br><br>Participating in code-reviews within the team, and also across teams and departments to ensure a high quality of code and a consistent approach to development.<br><br>Architectural discussions and decisions (writing RFCs and ADRs), and also helping the team to adopt and maintain new technologies and best practices.
+
+***Technical Environment*** PHP 8.1, JavaScript, ShellScript (Bash), Docker, MySQL, Git, GitLab CI, DevOps, AWS, NixOS, Devenv, DataDog
+
+* **[ZOLAR GmBH](https://zolar.de/)** *Senior Software Engineer - Backend* (__2023-09-01 to 2024-05-30__)
+
+I've worked with my team to improve our workflow and deliver value to the business day-by-day, always challenging the team and keeping a healthy and relaxed work environment.<br><br>I've managed to help my Tech Lead help the whole team to deliver our very first sprint, before that, all the committed work wasn't being delivered due to miscalculation of team velocity and capacity planning.
 
 ***Technical Environment*** NodeJS, TypeScript, Amazon API Gateway, Amazon DynamoDB, Apache Kafka, AWS CloudFormation, AWS Lambda, BitBucket CI, DataDog, Docker, Git
 
 * **[Time2Play Media Ltd. (former KaFe.Rocks Ltd.)](https://time2play.com/corporate/)** *Lead Software Engineer - Backend* (__2021-10-13 to 2023-08-31__)
 
-I've helped my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.<br><br> Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).<br><br>I've helped my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.
+Led a cross-functional a team of 6 engineers remotely distributed across the Globe, maintaining regular 1:1s, career progression, and product delivery.<br><br>Led the tech department hiring pipeline and played an instrumental role in onboarding, coaching, mentoring, and promoting engineers.<br><br>I've helped my team to achieve the best pace and excellence for software development while leading them to always aim for the company goals by balancing technical and product needs by supporting them to grow as individuals and as a team.<br><br> Ensuring that the process run smoothly helping them with a clear definition of the Software Development Life Cycle (SDLC).<br><br>I've helped my team to achieve the best development practices, such as iterative and incremental releases, Unit Testing, E2E Testing, efficient refactoring, and SOLID principles.<br><br>We've created a stable and '1-click' Feature Environment (isolated test and QA environments) with Laravel Forge and Cloudflare Workers.
 
 ***Technical Environment*** PHP 8.1, Laravel 9, NodeJS, TypeScript, JavaScript, Gatsby Cloud, ShellScript (Bash), Docker, MySQL, Git, BitBucket CI, GitHub Actions, DevOps, DigitalOcean, CloudFlare
 
 * **[Blexr Ltd.](https://blexr.com/)** *Senior PHP Engineer* (__2019-01-01 to 2021-10-09__)
 
-I've helped my team to achieve the best Software Development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Managed to improve up to 10x the response time of a web micro-service for redirects (from 800ms to 8ms).
+I've helped my team to achieve the best Software Development practices, such as Unit Testing, efficient refactoring, and SOLID principles.<br><br>Together with another senior developer, we've created a stable and '1-click' development environment with Docker.<br><br>I've planned, designed and executed the refactoring of a monolith into small and independent micro-services fully scalable and performant.<br><br>Worked together with the DevOps team to create and set up pipelines for deployments, static code analysis and integration tests.<br><br>Managed to improve up to 10x the response time of a web micro-service for redirects (from 800ms to 8ms).<br><br>I've also actively participated in interviews and assessments for new candidates.
 
 ***Technical Environment*** PHP 7 and 8 (in-house framework, Symfony 5), ShellScript (Bash), NodeJS, JavaScript, TypeScript, Docker, MySQL, MariaDB, Git, GitLab CI, DevOps, AWS (SQS, RDS, Redshift, S3, ECS), Redis, Cloudflare
 
@@ -126,16 +132,16 @@ Faculdade Pitágoras
 ------
 ### Skills
 
-1. *PHP* (15+ years)
-2. *JavaScript* (15+ years)
-3. *MySQL* (14+ years)
-4. *TypeScript* (4+ years)
-5. *Linux* (11+ years)
+1. *PHP* (16+ years)
+2. *JavaScript* (16+ years)
+3. *MySQL* (15+ years)
+4. *TypeScript* (5+ years)
+5. *Linux* (13+ years)
 6. *Git* (10+ years)
 7. *Python* (10+ years)
-8. *DevOps* (9+ years)
-9. *Postgres* (8+ years)
-10. *Docker* (8+ years)
+8. *DevOps* (10+ years)
+9. *Docker* (10+ years)
+10. *Postgres* (8+ years)
 11. *AWS* (8+ years)
 12. *Cloudflare* (5+ years)
 
