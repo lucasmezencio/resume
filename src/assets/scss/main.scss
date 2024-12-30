@@ -1,47 +1,51 @@
-@import 'theme/pillar-1';
+@use 'theme/dev-resume';
 
-.text-dark {
-  color: $dark !important;
+.text-justify {
+  text-align: justify !important;
 }
 
-.bg-light {
-  background-color: $light !important;
-}
+// .text-dark {
+//   color: $dark !important;
+// }
 
-@media print {
-  .badge {
-    border: 1px solid $theme-text-color-light;
-  }
+// .bg-light {
+//   background-color: $light !important;
+// }
 
-  .resume-header {
-    color: $dark !important;
+// @media print {
+//   .badge {
+//     border: 1px solid $theme-text-color-light;
+//   }
 
-    .name {
-      color: $dark !important;
-    }
+//   .resume-header {
+//     color: $dark !important;
 
-    a {
-      color: $dark !important;
-      text-decoration: none !important;
-    }
-  }
+//     .name {
+//       color: $dark !important;
+//     }
 
-  .resume-skill-item, .resume-interest-list {
-    li {
-      display: inline;
-    }
-  }
+//     a {
+//       color: $dark !important;
+//       text-decoration: none !important;
+//     }
+//   }
 
-  .resume-wrapper-inner {
-    box-shadow: none !important;
-  }
+//   .resume-skill-item, .resume-interest-list {
+//     li {
+//       display: inline;
+//     }
+//   }
 
-  footer {
-    display: none !important;
-  }
+//   .resume-wrapper-inner {
+//     box-shadow: none !important;
+//   }
 
-  .page-break {
-    clear: both;
-    page-break-before: always;
-  }
-}
+//   footer {
+//     display: none !important;
+//   }
+
+//   .page-break {
+//     clear: both;
+//     page-break-before: always;
+//   }
+// }

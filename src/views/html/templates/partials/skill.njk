@@ -1,5 +1,9 @@
-<li class="mb-2">
-    <div class="resume-skill-name">
-        {{ skill.name }} <span class="badge bg-light text-dark">{{ skill.level }}</span>
-    </div>
-</li>
+<div class="item">
+    <h4 class="item-title d-inline-block">{{ skill.name }}</h4> <small class="badge text-bg-secondary">{{ skill.level }}</small>
+
+    <ul class="list-unstyled resume-skills-list">
+        {% for keyword in skill.keywords %}
+            <li class="mb-2">{{ keyword }}</li>
+        {% endfor %}
+    </ul>
+</div>

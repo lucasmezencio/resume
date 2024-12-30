@@ -1,30 +1,24 @@
-<article class="resume-timeline-item position-relative pb-5">
-    <div class="resume-timeline-item-header mb-2">
-        <div class="d-flex flex-column flex-md-row">
-            <h3 class="resume-position-title font-weight-bold mb-1">{{ work.position }}</h3>
-            <div class="resume-company-name ms-auto text-md-end">
-                <a href="{{ work.url }}">{{ work.company }}</a>
-            </div>
-        </div><!--//row-->
+<div class="item mb-3">
+    <div class="item-heading row align-items-center mb-2">
+        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
+            {{ work.position }}<br />
+            <small class="text-body-secondary">{{ work.company }}</small>
+        </h4>
 
-        <div class="resume-position-time">{{ work.startDate }} - {{ work.endDate or 'Present' }}</div>
-    </div><!--//resume-timeline-item-header-->
+        <div class="item-meta col-12 col-md-6 col-lg-4 text-body-secondary text-start text-md-end">{{ work.startDate }} - {{ work.endDate or 'Present' }}</div>
+    </div>
 
-    <div class="resume-timeline-item-desc">
+    <div class="item-content">
         <p>
             {{ work.summary|replace("\n", '<br>')|safe }}
         </p>
 
-        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
-            Tech environment:
-        </h4>
-
-        <ul class="list-inline">
+        <ul class="resume-list list-inline">
             {% for technology in work.highlights %}
                 <li class="list-inline-item">
-                    <span class="badge bg-primary badge-pill">{{ technology }}</span>
+                    <span class="badge text-bg-secondary">{{ technology }}</span>
                 </li>
             {% endfor %}
         </ul>
-    </div><!--//resume-timeline-item-desc-->
-</article><!--//resume-timeline-item-->
+    </div>
+</div><!--//item-->

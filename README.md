@@ -1,6 +1,6 @@
 # Lucas Mezêncio
 
-#### Software Engineer - Backend
+#### Senior Software Engineer - Backend
 
 > [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [x.com/lucasmezencio](https://x.com/lucasmezencio)
 >
@@ -12,10 +12,16 @@
 >
 > +351 938 232 024
 
-I am a seasoned Backend Software Engineer with extensive experience since 2008 in developing robust systems and web applications. My expertise spans data modelling, Linux server administration, and enforcing coding best practices to enhance application performance and scalability.<br><br>I am passionate about leading and mentoring diverse engineering teams, fostering a collaborative environment that encourages knowledge sharing and professional growth.<br><br>I am also a strong proponent of Agile principles and open source software, continuously advocating for practices that improve team interactions and software quality.<br><br>Engaging in electronics as a hobby, applying my technical skills to personal projects with Arduino.
+I am a seasoned Backend Software Engineer with extensive experience since 2008 in developing robust systems and web applications. My expertise spans data modelling, Linux server administration, and enforcing coding best practices to enhance application performance and scalability.<br>I am passionate about leading and mentoring diverse engineering teams, fostering a collaborative environment that encourages knowledge sharing and professional growth.<br>I am also a strong proponent of Agile principles and open source software, continuously advocating for practices that improve team interactions and software quality.<br>Engaging in electronics as a hobby, applying my technical skills to personal projects with Arduino.
 
 ## Work Experience
 
+
+* **[Sorcova Health](https://sorcovahealth.com/)** *Senior Software Engineer - Backend Tech Lead* (__2024-10-03 to Present__)
+
+Working on the development of a platform to help patients with chronic diseases to manage their health and improve their quality of life.<br><br>I'm working on the development of the back-end system, which consists of a modular monolith.<br><br>Designing the system architecture, modeling the database, and implementing features while serving as a bridge between stakeholders and the engineering team.
+
+***Technical Environment*** TypeScript, React, NextJS, NestJS, Docker, PostgreSQL, Git, GitHub Actions, DevOps, OVH Cloud, DataDog
 
 * **[LastPass Portugal Lda.](https://lastpass.com/)** *Senior Software Engineer* (__2024-06-03 to Present__)
 
@@ -132,18 +138,11 @@ Faculdade Pitágoras
 ------
 ### Skills
 
-1. *PHP* (16+ years)
-2. *JavaScript* (16+ years)
-3. *MySQL* (15+ years)
-4. *TypeScript* (5+ years)
-5. *Linux* (13+ years)
-6. *Git* (10+ years)
-7. *Python* (10+ years)
-8. *DevOps* (10+ years)
-9. *Docker* (10+ years)
-10. *Postgres* (8+ years)
-11. *AWS* (8+ years)
-12. *Cloudflare* (5+ years)
+1. *Software Engineering* (16+ years)
+2. *Data Engineering* (16+ years)
+3. *DevOps* (10+ years)
+4. *Cloud Computing* (10+ years)
+5. *Leadership/Management* (5+ years)
 
 
 ------

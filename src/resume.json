@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Lucas Mezêncio",
-    "label": "Software Engineer - Backend",
+    "label": "Senior Software Engineer - Backend",
     "picture": "//secure.gravatar.com/avatar/9c0883cd34733c1fa9c66331904bdb40?s=420",
     "email": "eu@lucasmezencio.com",
-    "summary": "I am a seasoned Backend Software Engineer with extensive experience since 2008 in developing robust systems and web applications. My expertise spans data modelling, Linux server administration, and enforcing coding best practices to enhance application performance and scalability.\n\nI am passionate about leading and mentoring diverse engineering teams, fostering a collaborative environment that encourages knowledge sharing and professional growth.\n\nI am also a strong proponent of Agile principles and open source software, continuously advocating for practices that improve team interactions and software quality.\n\nEngaging in electronics as a hobby, applying my technical skills to personal projects with Arduino.",
+    "summary": "I am a seasoned Backend Software Engineer with extensive experience since 2008 in developing robust systems and web applications. My expertise spans data modelling, Linux server administration, and enforcing coding best practices to enhance application performance and scalability.\nI am passionate about leading and mentoring diverse engineering teams, fostering a collaborative environment that encourages knowledge sharing and professional growth.\nI am also a strong proponent of Agile principles and open source software, continuously advocating for practices that improve team interactions and software quality.\nEngaging in electronics as a hobby, applying my technical skills to personal projects with Arduino.",
     "location": {
       "city": "Lourinhã",
       "region": "Lisbon",
@@ -36,6 +36,26 @@
     ]
   },
   "work": [
+    {
+      "company": "Sorcova Health",
+      "url": "https://sorcovahealth.com/",
+      "position": "Senior Software Engineer - Backend Tech Lead",
+      "summary": "Working on the development of a platform to help patients with chronic diseases to manage their health and improve their quality of life.\n\nI'm working on the development of the back-end system, which consists of a modular monolith.\n\nDesigning the system architecture, modeling the database, and implementing features while serving as a bridge between stakeholders and the engineering team.",
+      "startDate": "2024-10-03",
+      "highlights": [
+        "TypeScript",
+        "React",
+        "NextJS",
+        "NestJS",
+        "Docker",
+        "PostgreSQL",
+        "Git",
+        "GitHub Actions",
+        "DevOps",
+        "OVH Cloud",
+        "DataDog"
+      ]
+    },
     {
       "company": "LastPass Portugal Lda.",
       "url": "https://lastpass.com/",
@@ -380,52 +400,68 @@
   ],
   "skills": [
     {
-      "name": "PHP",
-      "level": "16+ years"
+      "name": "Software Engineering",
+      "level": "16+ years",
+      "keywords": [
+        "PHP",
+        "JavaScript",
+        "Python",
+        "TypeScript",
+        "NodeJS",
+        "Laravel",
+        "Symfony"
+      ]
     },
     {
-      "name": "JavaScript",
-      "level": "16+ years"
-    },
-    {
-      "name": "MySQL",
-      "level": "15+ years"
-    },
-    {
-      "name": "TypeScript",
-      "level": "5+ years"
-    },
-    {
-      "name": "Linux",
-      "level": "13+ years"
-    },
-    {
-      "name": "Git",
-      "level": "10+ years"
-    },
-    {
-      "name": "Python",
-      "level": "10+ years"
+      "name": "Data Engineering",
+      "level": "16+ years",
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Memcached",
+        "Elasticsearch",
+        "Kibana",
+        "Kafka",
+        "RabbitMQ"
+      ]
     },
     {
       "name": "DevOps",
-      "level": "10+ years"
+      "level": "10+ years",
+      "keywords": [
+        "Linux",
+        "ShellScript",
+        "Docker",
+        "Git",
+        "GitHub Actions",
+        "GitLab CI"
+      ]
     },
     {
-      "name": "Docker",
-      "level": "10+ years"
+      "name": "Cloud Computing",
+      "level": "10+ years",
+      "keywords": [
+        "AWS",
+        "OVH Cloud",
+        "DigitalOcean",
+        "Cloudflare"
+      ]
     },
     {
-      "name": "Postgres",
-      "level": "8+ years"
-    },
-    {
-      "name": "AWS",
-      "level": "8+ years"
-    },
-    {
-      "name": "Cloudflare",
-      "level": "5+ years"
+      "name": "Leadership/Management",
+      "level": "5+ years",
+      "keywords": [
+        "Agile",
+        "Mentorship",
+        "Team Building",
+        "Team Management",
+        "Project Management",
+        "Communication",
+        "Conflict Resolution",
+        "Lead and deliver complex software systems"
+      ]
     }
   ],
   "languages": [

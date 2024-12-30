@@ -11,174 +11,211 @@
 
     <link rel="shortcut icon" href="favicon.ico">
     <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css"
-          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-          crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
     <link id="theme-style" rel="stylesheet" href="dist/css/main.min.css">
 </head>
 
 <body>
-<article class="resume-wrapper text-center position-relative">
-    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
-        <header class="resume-header pt-4 pt-md-0">
-            <div class="row">
-                <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-                    <img class="picture" src="{{ resume.basics.picture }}" alt="Lucas laughing on his wedding.">
+<div class="main-wrapper">
+    <div class="container px-3 px-lg-5">
+        <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+            <div class="resume-header">
+                <div class="row align-items-center">
+                    <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+                        <h2 class="resume-name mb-0 text-uppercase">
+                            {{ resume.basics.name }}
+                        </h2>
+                        <div class="resume-tagline mb-3 mb-md-0">{{ resume.basics.label }}</div>
+                    </div><!--//resume-title-->
+
+                    <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a class="resume-link" href="tel:#">{{ resume.basics.phone }}</a></li>
+                            <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a class="resume-link" href="mailto:#">{{ resume.basics.email }}</a></li>
+                            <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="#">{{ resume.basics.website }}</a></li>
+                            <li class="mb-0">
+                                <i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>{{ resume.basics.location.city }}, {{ resume.basics.location.region }} - {{ resume.basics.location.countryCode }}
+                            </li>
+                        </ul>
+                    </div><!--//resume-contact-->
+                </div><!--//row-->
+            </div><!--//resume-header-->
+
+            <hr>
+
+            <div class="resume-intro py-3">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3 col-xl-2 text-center">
+                        <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded-circle mx-auto" src="{{ resume.basics.picture }}" alt="image">
+                    </div>
+
+                    <div class="col text-justify">
+                        <p class="mb-0">
+                            {{ resume.basics.summary|replace("\n", '<br>')|safe }}
+                        </p>
+                    </div><!--//col-->
                 </div>
+            </div><!--//resume-intro-->
 
-                <div class="col">
-                    <div class="row p-4 justify-content-center justify-content-md-between">
-                        <div class="primary-info col-auto">
-                            <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">
-                                {{ resume.basics.name }}
-                            </h1>
+            <hr>
 
-                            <div class="title mb-3">{{ resume.basics.label }}</div>
+            <div class="resume-body">
+                <div class="row">
+                    <div class="resume-main col-12 col-lg-8 col-xl-9 pe-0 pe-lg-5">
+                        <section class="work-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">{{ topics.work }}</h3>
 
-                            <ul class="list-unstyled">
-                                <li class="mb-2">
-                                    <i class="fas fa-at fa-fw me-2"
-                                       data-fa-transform="grow-3"></i>{{ resume.basics.email }}
-                                </li>
+                            {% for work in resume.work %}
+                                {% include 'partials/timeline-content.njk' %}
+                            {% endfor %}
+                        </section><!--//work-section-->
 
-                                <li class="mb-2">
-                                    <i class="fas fa-mobile-alt fa-fw me-2"
-                                       data-fa-transform="grow-6"></i>{{ resume.basics.phone }}
+                        {# <section class="project-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
+
+                            <div class="item mb-3">
+                                <div class="item-heading row align-items-center mb-2">
+                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Lorem Ipsum</h4>
+                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
+                                </div>
+
+                                <div class="item-content">
+                                    <p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                </div>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <div class="item-heading row align-items-center mb-2">
+                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Sed Fringilla</h4>
+                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
+                                </div>
+
+                                <div class="item-content">
+                                    <p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                </div>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <div class="item-heading row align-items-center mb-2">
+                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Praesent </h4>
+                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
+                                </div>
+
+                                <div class="item-content">
+                                    <p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+
+                                </div>
+                            </div><!--//item-->
+                        </section><!--//project-section--> #}
+                    </div><!--//resume-main-->
+
+                    <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+                        <section class="skills-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">{{ topics.skills }}</h3>
+
+                            {% for skill in resume.skills %}
+                                {% include 'partials/skill.njk' %}
+                            {% endfor %}
+                        </section><!--//skills-section-->
+
+                        <section class="education-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
+                            <ul class="list-unstyled resume-education-list">
+                                <li class="mb-3">
+                                    <div class="resume-degree font-weight-bold">MSc in Computer Science</div>
+                                    <div class="resume-degree-org text-muted">University College London</div>
+                                    <div class="resume-degree-time text-muted">2012 - 2016</div>
                                 </li>
 
                                 <li>
-                                    <i class="far fa-envelope fa-fw me-2"
-                                       data-fa-transform="grow-6"></i>{{ resume.basics.location.city }}, {{ resume.basics.location.region }} - {{ resume.basics.location.countryCode }}
+                                    <div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
+                                    <div class="resume-degree-org text-muted">Imperial College London</div>
+                                    <div class="resume-degree-time text-muted">2016 - 2017</div>
                                 </li>
                             </ul>
-                        </div><!--//primary-info-->
+                        </section><!--//education-section-->
 
-                        <div class="secondary-info col-auto mt-2">
-                            <ul class="resume-social list-unstyled">
-                                {% for profile in resume.basics.profiles %}
-                                    {% include 'partials/profile.njk' %}
-                                {% endfor %}
+                        <section class="education-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Awards</h3>
+
+                            <ul class="list-unstyled resume-awards-list">
+                                <li class="mb-3">
+                                    <div class="font-weight-bold">Award Lorem Ipsum</div>
+                                    <div class="text-muted">Microsoft lorem ipsum (2023)</div>
+                                </li>
+
+                                <li>
+                                    <div class="font-weight-bold">Award Donec Sodales</div>
+                                    <div class="text-muted">Oracle Aenean (2020)</div>
+                                </li>
                             </ul>
-                        </div><!--//secondary-info-->
-                    </div>
-                </div>
-            </div>
-        </header>
+                        </section><!--//education-section-->
 
-        <div class="resume-body p-5">
-            <section class="resume-section summary-section mb-5">
-                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{ topics.summary }}</h2>
+                        <section class="skills-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
 
-                <div class="resume-section-content">
-                    <p class="mb-0">
-                        {{ resume.basics.summary|replace("\n", '<br>')|safe }}
-                    </p>
-                </div>
-            </section><!--//summary-section-->
-
-            <div class="row">
-                <div class="col-lg-9">
-                    <section class="resume-section experience-section mb-5 page-break">
-                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
-                            {{ topics.work }}
-                        </h2>
-
-                        <div class="resume-section-content">
-                            <div class="resume-timeline position-relative">
-                                {% for work in resume.work %}
-                                    {% include 'partials/timeline-content.njk' %}
-                                {% endfor %}
-                            </div><!--//resume-timeline-->
-                        </div>
-                    </section><!--//experience-section-->
-
-                    <section class="resume-section experience-section mb-5 page-break">
-                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
-                            {{ topics.reference }}
-                        </h2>
-
-                        <div class="resume-section-content">
-                            <div class="resume-timeline position-relative">
-                                {% for reference in resume.references %}
-                                    {% include 'partials/reference.njk' %}
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
-                <div class="col-lg-3">
-                    <section class="resume-section skills-section mb-5">
-                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
-                            {{ topics.skills }}
-                        </h2>
-
-                        <div class="resume-section-content">
-                            <div class="resume-skill-item">
-                                <ul class="list-unstyled mb-4">
-                                    {% for skill in resume.skills %}
-                                        {% include 'partials/skill.njk' %}
-                                    {% endfor %}
-                                </ul>
-                            </div><!--//resume-skill-item-->
-                        </div><!--resume-section-content-->
-                    </section><!--//skills-section-->
-
-                    <section class="resume-section education-section mb-5">
-                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
-                            {{ topics.education }}
-                        </h2>
-
-                        <div class="resume-section-content">
-                            <ul class="list-unstyled">
-                                {% for education in resume.education %}
-                                    {% include 'partials/education.njk' %}
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </section><!--//education-section-->
-
-                    <section class="resume-section language-section mb-5">
-                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
-                            {{ topics.languages }}
-                        </h2>
-
-                        <div class="resume-section-content">
                             <ul class="list-unstyled resume-lang-list">
-                                {% for language in resume.languages %}
-                                    {% include 'partials/language.njk' %}
-                                {% endfor %}
+                                <li class="mb-2">English <span class="text-muted">(Native)</span></li>
+                                <li>Spanish <span class="text-muted">(Professional)</span></li>
                             </ul>
-                        </div>
-                    </section><!--//language-section-->
+                        </section><!--//certificates-section-->
 
-                    <section class="resume-section interests-section mb-5">
-                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
-                            {{ topics.interests }}
-                        </h2>
+                        <section class="skills-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
 
-                        <div class="resume-section-content">
-                            <ul class="list-unstyled resume-interest-list">
-                                {% for interest in resume.interests %}
-                                    <li class="md-1">
-                                        {{ interest.name }}
-                                    </li>
-                                {% endfor %}
+                            <ul class="list-unstyled resume-interests-list mb-0">
+                                <li class="mb-2">Climbing</li>
+                                <li class="mb-2">Snowboarding</li>
+                                <li class="mb-2">Photography</li>
+                                <li>Travelling</li>
                             </ul>
-                        </div>
-                    </section><!--//interests-section-->
-                </div>
-            </div>
-        </div><!--//resume-body-->
-    </div>
-</article>
+                        </section><!--//certificates-section-->
 
-<footer class="footer text-center pt-2 pb-5">
-    <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-    <small class="copyright">
-        Designed with <i class="fas fa-heart"></i> by <a
-            href="https://themes.3rdwavemedia.com">Xiaoying Riley</a> for developers
-    </small>
-</footer>
+                    </aside><!--//resume-aside-->
+                </div><!--//row-->
+            </div><!--//resume-body-->
+
+            <hr>
+
+            <div class="resume-footer text-center">
+                <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+                    <li class="list-inline-item mb-lg-0 me-3">
+                        <a class="resume-link" href="#">
+                            <i class="fa-brands fa-github-square fa-2x me-2" data-fa-transform="down-4"></i>
+                            <span class="d-none d-lg-inline-block text-muted">github.com/username</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item mb-lg-0 me-3">
+                        <a class="resume-link" href="#">
+                            <i class="fa-brands fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i>
+                            <span class="d-none d-lg-inline-block text-muted">linkedin.com/in/username</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item mb-lg-0 me-lg-3">
+                        <a class="resume-link" href="#">
+                            <i class="fa-brands fa-square-x-twitter fa-2x me-2" data-fa-transform="down-4"></i>
+                            <span class="d-none d-lg-inline-block text-muted">@twittername</span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--//resume-footer-->
+        </article>
+    </div><!--//container-->
+
+    <footer class="footer text-center py-4">
+        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+        <small class="copyright text-muted">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+    </footer>
+</div><!--//main-wrapper-->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
 </body>
 </html>
