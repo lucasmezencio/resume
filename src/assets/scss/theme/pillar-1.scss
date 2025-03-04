@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 /*!
  * Template Name: Pillar - Bootstrap 5 Resume/CV Template for Developers
  * Version: Bootstrap 5 v1.0
@@ -11,10 +13,10 @@
 $theme-badge-text-color-light: #58677c;
 $theme-color-primary: #434E5E;
 $theme-text-color-primary: #434E5E;
-$theme-text-color-secondary: lighten($theme-text-color-primary, 10%);
-$theme-text-color-light: lighten($theme-text-color-primary, 40%);
-$theme-border-color: lighten($theme-text-color-primary, 10%);
-$theme-divider-color: lighten($theme-text-color-primary, 10%);
+$theme-text-color-secondary: color.adjust($theme-text-color-primary, $lightness: 10%);
+$theme-text-color-light: color.adjust($theme-text-color-primary, $lightness: 40%);
+$theme-border-color: color.adjust($theme-text-color-primary, $lightness: 10%);
+$theme-divider-color: color.adjust($theme-text-color-primary, $lightness: 10%);
 $theme-bg-light: #F7F8FA;
 $theme-bg-dark: $theme-text-color-primary;
 
@@ -43,7 +45,7 @@ a {
   color: $theme-color-primary;
 
   &:hover {
-    color: darken($theme-color-primary, 15%);
+    color: color.adjust($theme-color-primary, $lightness: -15%);
   }
 
   &.no-text-decoration {
@@ -64,7 +66,7 @@ a.text-link {
 }
 
 .theme-bg-primary-darken {
-  background-color: darken($theme-color-primary, 20%);
+  background-color: color.adjust($theme-color-primary, $lightness: -20%);
 }
 
 a.theme-btn-on-bg,
