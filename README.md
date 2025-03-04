@@ -2,7 +2,7 @@
 
 #### Software Engineer - Backend
 
-> [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [x.com/lucasmezencio](https://x.com/lucasmezencio)
+> [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [last.fm/user/lucasmezencio](https://last.fm/user/lucasmezencio)
 >
 > Lourinhã, Lisbon - Portugal
 >
