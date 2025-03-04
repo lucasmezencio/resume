@@ -37,6 +37,26 @@
   },
   "work": [
     {
+      "company": "Sorcova Health",
+      "url": "https://sorcovahealth.com/",
+      "position": "Senior Software Engineer - Backend Tech Lead",
+      "summary": "Working on the development of a platform to help patients with chronic mental health issues to manage their health and improve their quality of life.\n\nI'm working on the development of the back-end system, which consists of a modular monolith.\n\nDesigning the system architecture, modeling the database, and implementing features while serving as a bridge between stakeholders and the engineering team.",
+      "startDate": "2024-10-03",
+      "highlights": [
+        "TypeScript",
+        "React",
+        "NextJS",
+        "NestJS",
+        "Docker",
+        "PostgreSQL",
+        "Git",
+        "GitHub Actions",
+        "DevOps",
+        "OVH Cloud",
+        "DataDog"
+      ]
+    },
+    {
       "company": "LastPass Portugal Lda.",
       "url": "https://lastpass.com/",
       "position": "Senior Software Engineer",
