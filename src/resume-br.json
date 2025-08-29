@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Lucas Mezêncio",
-    "label": "Engenheiro de Software - Backend",
+    "label": "Engenheiro de Software Sênior - Backend",
     "picture": "//secure.gravatar.com/avatar/9c0883cd34733c1fa9c66331904bdb40?s=420",
     "email": "eu@lucasmezencio.com",
     "summary": "Sou um engenheiro web experiente, criando softwares desde 2008, com ampla experiência em desenvolvimento e manutenção de aplicações e sistemas web, sólidos conhecimentos em modelagem de dados, arquitetura de software e administração de servidores Linux. Procuro focar em código de qualidade sempre prezando por boas práticas, garantindo performance e escalabilidade de aplicações.\n\nCertified ScrumMaster pela Scrum Alliance, acredito no Manifesto Ágil no desenvolvimento de softwares e principalmente na interação dos indivíduos no desenrolar do desenvolvimento. Grandes softwares são construídos em cima de grandes pessoas.\n\nExpressões regulares é uma de minhas paixões, sou entusiasta Git e Software Livre, e gosto de eletrônica e de brincar de vez em quando com minha Arduino em casa. :)\n\nSou comunicativo, extrovertido e amigo.",
@@ -36,6 +36,49 @@
     ]
   },
   "work": [
+    {
+      "company": "Sorcova Health",
+      "url": "https://sorcovahealth.com/",
+      "position": "Senior Software Engineer - Backend Tech Lead",
+      "summary": "Working on the development of a platform to help patients with chronic mental health issues to manage their health and improve their quality of life.\n\nI'm working on the development of the back-end system, which consists of a modular monolith.\n\nDesigning the system architecture, modeling the database, and implementing features while serving as a bridge between stakeholders and the engineering team.",
+      "startDate": "2024-10-03",
+      "endDate": "2025-08-01",
+      "highlights": [
+        "TypeScript",
+        "React",
+        "NextJS",
+        "NestJS",
+        "Docker",
+        "PostgreSQL",
+        "Git",
+        "GitHub Actions",
+        "DevOps",
+        "OVH Cloud",
+        "DataDog",
+        "Terraform"
+      ]
+    },
+    {
+      "company": "LastPass Portugal Lda.",
+      "url": "https://lastpass.com/",
+      "position": "Senior Software Engineer",
+      "summary": "Part of the team responsible for the SSO (Single Sign-on) and MFA (Multi-factor Authentication) API, creating and maintaining all the features for this section.\n\nParticipating in code-reviews within the team, and also across teams and departments to ensure a high quality of code and a consistent approach to development.\n\nArchitectural discussions and decisions (writing RFCs and ADRs), and also helping the team to adopt and maintain new technologies and best practices.",
+      "startDate": "2024-06-03",
+      "highlights": [
+        "PHP 8.1",
+        "JavaScript",
+        "ShellScript (Bash)",
+        "Docker",
+        "MySQL",
+        "Git",
+        "GitLab CI",
+        "DevOps",
+        "AWS",
+        "NixOS",
+        "Devenv",
+        "DataDog"
+      ]
+    },
     {
       "company": "ZOLAR GmBH",
       "url": "https://zolar.de/",

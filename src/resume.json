@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Lucas Mezêncio",
-    "label": "Software Engineer - Backend",
+    "label": "Senior Backend Software Engineer",
     "picture": "//secure.gravatar.com/avatar/9c0883cd34733c1fa9c66331904bdb40?s=420",
     "email": "eu@lucasmezencio.com",
     "summary": "I am a seasoned Backend Software Engineer with extensive experience since 2008 in developing robust systems and web applications. My expertise spans data modelling, Linux server administration, and enforcing coding best practices to enhance application performance and scalability.\n\nI am passionate about leading and mentoring diverse engineering teams, fostering a collaborative environment that encourages knowledge sharing and professional growth.\n\nI am also a strong proponent of Agile principles and open source software, continuously advocating for practices that improve team interactions and software quality.\n\nEngaging in electronics as a hobby, applying my technical skills to personal projects with Arduino.",
@@ -42,6 +42,7 @@
       "position": "Senior Software Engineer - Backend Tech Lead",
       "summary": "Working on the development of a platform to help patients with chronic mental health issues to manage their health and improve their quality of life.\n\nI'm working on the development of the back-end system, which consists of a modular monolith.\n\nDesigning the system architecture, modeling the database, and implementing features while serving as a bridge between stakeholders and the engineering team.",
       "startDate": "2024-10-03",
+      "endDate": "2025-08-01",
       "highlights": [
         "TypeScript",
         "React",
@@ -53,7 +54,8 @@
         "GitHub Actions",
         "DevOps",
         "OVH Cloud",
-        "DataDog"
+        "DataDog",
+        "Terraform"
       ]
     },
     {
