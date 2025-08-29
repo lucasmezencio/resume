@@ -1,6 +1,6 @@
 # Lucas Mezêncio
 
-#### Software Engineer - Backend
+#### Senior Backend Software Engineer
 
 > [linkedin.com/in/lucasmezencio](https://linkedin.com/in/lucasmezencio) | [github.com/lucasmezencio](https://github.com/lucasmezencio) | [fb.me/lucasmezencio](https://fb.me/lucasmezencio) | [last.fm/user/lucasmezencio](https://last.fm/user/lucasmezencio)
 >
@@ -17,17 +17,17 @@ I am a seasoned Backend Software Engineer with extensive experience since 2008 i
 ## Work Experience
 
 
-* **[Sorcova Health](https://sorcovahealth.com/)** *Senior Software Engineer - Backend Tech Lead* (__2024-10-03 to Present__)
-
-Working on the development of a platform to help patients with chronic mental health issues to manage their health and improve their quality of life.<br><br>I'm working on the development of the back-end system, which consists of a modular monolith.<br><br>Designing the system architecture, modeling the database, and implementing features while serving as a bridge between stakeholders and the engineering team.
-
-***Technical Environment*** TypeScript, React, NextJS, NestJS, Docker, PostgreSQL, Git, GitHub Actions, DevOps, OVH Cloud, DataDog
-
 * **[LastPass Portugal Lda.](https://lastpass.com/)** *Senior Software Engineer* (__2024-06-03 to Present__)
 
 Part of the team responsible for the SSO (Single Sign-on) and MFA (Multi-factor Authentication) API, creating and maintaining all the features for this section.<br><br>Participating in code-reviews within the team, and also across teams and departments to ensure a high quality of code and a consistent approach to development.<br><br>Architectural discussions and decisions (writing RFCs and ADRs), and also helping the team to adopt and maintain new technologies and best practices.
 
 ***Technical Environment*** PHP 8.1, JavaScript, ShellScript (Bash), Docker, MySQL, Git, GitLab CI, DevOps, AWS, NixOS, Devenv, DataDog
+
+* **[Sorcova Health](https://sorcovahealth.com/)** *Senior Software Engineer - Backend Tech Lead* (__2024-10-03 to 2025-08-01__)
+
+Working on the development of a platform to help patients with chronic mental health issues to manage their health and improve their quality of life.<br><br>I'm working on the development of the back-end system, which consists of a modular monolith.<br><br>Designing the system architecture, modeling the database, and implementing features while serving as a bridge between stakeholders and the engineering team.
+
+***Technical Environment*** TypeScript, React, NextJS, NestJS, Docker, PostgreSQL, Git, GitHub Actions, DevOps, OVH Cloud, DataDog, Terraform
 
 * **[ZOLAR GmBH](https://zolar.de/)** *Senior Software Engineer - Backend* (__2023-09-01 to 2024-05-30__)
 
