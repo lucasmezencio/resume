@@ -18,6 +18,81 @@ const loadJSON = () => {
   return JSON.parse(resume);
 };
 
+const manageEnv = (env) => {
+  const parseDateFlexible = (s) => {
+    if (!s) {
+      return null;
+    }
+
+    if (/^\d{4}-\d{2}-\d{2}$/.test(s)) {
+      return new Date(s);
+    }
+
+    if (/^\d{4}-\d{2}$/.test(s)) {
+      return new Date(s + '-01');
+    }
+
+    if (/^\d{4}$/.test(s)) {
+      return new Date(s + '-01-01');
+    }
+
+    const d = new Date(s);
+
+    return isNaN(d.getTime()) ? null : d;
+  };
+
+  const monthsBetween = (startDate, endDate) => {
+    const years = endDate.getFullYear() - startDate.getFullYear();
+    const months = endDate.getMonth() - startDate.getMonth();
+    let total = years * 12 + months;
+
+    if (endDate.getDate() < startDate.getDate()) {
+      total -= 1;
+    }
+
+    return Math.max(0, total);
+  };
+
+  const formatMonths = (totalMonths) => {
+    const y = Math.floor(totalMonths / 12);
+    const m = totalMonths % 12;
+    let out = '';
+
+    if (y > 0) {
+      out += `${y}y`;
+    }
+
+    if (m > 0) {
+      out += `${m}m`;
+    }
+
+    if (out === '') {
+      out = '0m';
+    }
+
+    return out;
+  };
+
+  // filter usage: {{ startDate | duration(endDate) }}
+  env.addFilter('duration', (startRaw, endRaw) => {
+    const start = parseDateFlexible(startRaw);
+
+    if (!start || !endRaw) {
+      return '';
+    }
+
+    const end = parseDateFlexible(endRaw);
+
+    if (!end) {
+      return '';
+    }
+
+    const months = monthsBetween(start, end);
+
+    return formatMonths(months);
+  });
+};
+
 /** General Tasks **/
 gulp.task(
   "nunjucks-html",
@@ -30,6 +105,7 @@ gulp.task(
           data: {
             resume: loadJSON(),
           },
+          manageEnv,
         })
       )
       .pipe(gulp.dest(`${STATIC_PATH}/`))
@@ -60,6 +136,7 @@ gulp.task(
           data: {
             resume: loadJSON(),
           },
+          manageEnv,
         })
       )
       .pipe(gulp.dest(`${STATIC_PATH}/`))
