@@ -12,17 +12,12 @@ const browserSync = require("browser-sync");
 const STATIC_PATH = ".";
 
 /**
- * @returns {{br: *, en: *}}
+ * @returns {object}
  */
 const loadJSON = () => {
-  const options = { flag: "r" };
-  const resumeBr = fs.readFileSync("./src/resume-br.json", options).toString();
-  const resumeEn = fs.readFileSync("./src/resume.json", options).toString();
+  const resume = fs.readFileSync("./src/resume.json", { flag: "r" }).toString();
 
-  return {
-    br: JSON.parse(resumeBr),
-    en: JSON.parse(resumeEn),
-  };
+  return JSON.parse(resume);
 };
 
 /** General Tasks **/
@@ -89,7 +84,7 @@ gulp.task(
   "json:watch",
   gulp.series((done) => {
     gulp.watch(
-      "./src/resume*.json",
+      "./src/resume.json",
       gulp.series(["nunjucks-html", "nunjucks-md"])
     );
 
