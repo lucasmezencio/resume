@@ -4,9 +4,7 @@ const nunjucksRender = require("gulp-nunjucks-render");
 const sass = require("gulp-sass")(require("sass"));
 const cleanCSS = require("gulp-clean-css");
 const sourcemaps = require("gulp-sourcemaps");
-const concat = require("gulp-concat");
 const rename = require("gulp-rename");
-const uglify = require("gulp-uglify");
 const browserSync = require("browser-sync");
 
 const STATIC_PATH = ".";
@@ -96,11 +94,6 @@ gulp.task(
   "sass",
   gulp.series((done) => {
     gulp
-      // .src("./src/assets/scss/*.scss")
-      // .pipe(sourcemaps.init())
-      // .pipe(sass().on("error", sass.logError))
-      // .pipe(sourcemaps.write())
-      // .pipe(gulp.dest(`${STATIC_PATH}/dist/css/`));
       .src("./src/assets/scss/*.scss")
       .pipe(sourcemaps.init())
       .pipe(
@@ -128,32 +121,6 @@ gulp.task(
 );
 
 gulp.task(
-  "js",
-  gulp.series((done) => {
-    let jsDest = `${STATIC_PATH}/dist/js/`;
-
-    gulp
-      .src("./src/assets/js/main.js")
-      .pipe(concat("main.js"))
-      .pipe(rename("main.min.js"))
-      .pipe(uglify())
-      .pipe(gulp.dest(jsDest))
-      .pipe(browserSync.stream());
-
-    done();
-  })
-);
-
-gulp.task(
-  "js:watch",
-  gulp.series((done) => {
-    gulp.watch("./src/assets/js/**/*.js", gulp.series("js"));
-
-    done();
-  })
-);
-
-gulp.task(
   "browser-sync",
   gulp.series((done) => {
     browserSync.init({
@@ -168,7 +135,7 @@ gulp.task(
   })
 );
 
-gulp.task("build", gulp.series(["nunjucks-html", "nunjucks-md", "sass", "js"]));
+gulp.task("build", gulp.series(["nunjucks-html", "nunjucks-md", "sass"]));
 gulp.task(
   "watch",
   gulp.series([
@@ -176,7 +143,6 @@ gulp.task(
     "nunjucks-md:watch",
     "json:watch",
     "sass:watch",
-    "js:watch",
   ])
 );
 
