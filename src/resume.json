@@ -37,6 +37,25 @@
   },
   "work": [
     {
+      "company": "Odds Scanner Group Ltd.",
+      "url": "https://oddsscanner.com/",
+      "position": "Senior Software Engineer - Backend",
+      "summary": "Working on the development and maintenance of the odds comparison and betting analytics platform, designing and implementing backend systems and integrations that support scalable data flow and real-time updates.\nResponsible for architecture design, API development, and automation pipelines, while leading projects and mentoring team members to ensure alignment with business goals.\nIntroduced engineering best practices across projects, refactored legacy components to improve performance and maintainability, and collaborated closely with frontend developers, data analysts, and stakeholders to deliver high-quality, reliable systems.",
+      "startDate": "2025-08-18",
+      "endDate": "2025-11-06",
+      "highlights": [
+        "Python 3.11",
+        "Apache Airflow",
+        "Docker",
+        "PHP 8.2",
+        "MySQL",
+        "Git",
+        "BitBucket CI",
+        "ShellScript (Bash)",
+        "Kibana"
+      ]
+    },
+    {
       "company": "LastPass Portugal Lda.",
       "url": "https://lastpass.com/",
       "position": "Senior Software Engineer",
