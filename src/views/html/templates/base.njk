@@ -87,9 +87,7 @@
 
                         <div class="resume-section-content">
                             <div class="resume-timeline position-relative">
-                                {% for work in resume.work %}
-                                    {% include 'partials/timeline-content.njk' %}
-                                {% endfor %}
+                                {% for work in resume.work %}{% include 'partials/timeline-content.njk' %}{% endfor %}
                             </div><!--//resume-timeline-->
                         </div>
                     </section><!--//experience-section-->
@@ -106,7 +104,7 @@
                                 {% endfor %}
                             </div>
                         </div>
-                    </section>
+                    </section><!--//reference-section-->
                 </div>
 
                 <div class="col-lg-3">

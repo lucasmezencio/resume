@@ -7,7 +7,9 @@
             </div>
         </div><!--//row-->
 
-        <div class="resume-position-time">{{ work.startDate }} - {{ work.endDate or 'Present' }}</div>
+        <div class="resume-position-time">
+            {{ work.startDate }} - {{ work.endDate or 'Present' }}{% if work.endDate %}&nbsp;({{ work.startDate | duration(work.endDate) }}){% endif %}
+        </div>
     </div><!--//resume-timeline-item-header-->
 
     <div class="resume-timeline-item-desc">
@@ -20,11 +22,9 @@
         </h4>
 
         <ul class="list-inline">
-            {% for technology in work.highlights %}
-                <li class="list-inline-item">
+            {% for technology in work.highlights %}<li class="list-inline-item">
                     <span class="badge bg-primary badge-pill">{{ technology }}</span>
-                </li>
-            {% endfor %}
+                </li>{% endfor %}
         </ul>
     </div><!--//resume-timeline-item-desc-->
 </article><!--//resume-timeline-item-->
