@@ -17,11 +17,11 @@ I am a seasoned Backend Software Engineer with extensive experience since 2008 i
 ## Work Experience
 
 
-* **[Odds Scanner Group Ltd.](https://oddsscanner.com/)** *Senior Software Engineer - Backend* (__2025-08-18 to 2025-11-06__ [2m])
+* **[Jimdo GmbH](https://jimdo.com/)** *Senior Software Engineer - Backend &amp; Infrastructure* (__2026-01-15 to Present__ )
 
-Working on the development and maintenance of the odds comparison and betting analytics platform, designing and implementing backend systems and integrations that support scalable data flow and real-time updates.<br>Responsible for architecture design, API development, and automation pipelines, while leading projects and mentoring team members to ensure alignment with business goals.<br>Introduced engineering best practices across projects, refactored legacy components to improve performance and maintainability, and collaborated closely with frontend developers, data analysts, and stakeholders to deliver high-quality, reliable systems.
+Working on the optimization and improvement of the current systems and infrastructure, focusing on cost-efficiency, performance and sustainability.
 
-***Technical Environment*** Python 3.11, Apache Airflow, Docker, PHP 8.2, MySQL, Git, BitBucket CI, ShellScript (Bash), Kibana
+***Technical Environment*** PHP 7.4, Docker, MySQL, Python 3.12, Git, Github Actions, ShellScript (Bash), AWS (Lambda, SQS, SNS, S3, API Gateway, CloudWatch), Terraform, Kubernetes
 
 * **[LastPass Portugal Lda.](https://lastpass.com/)** *Senior Software Engineer* (__2024-06-03 to 2025-08-15__ [1y2m])
 
@@ -124,7 +124,7 @@ Analysis and development of systems web applications.<br><br>Configuration and a
 ## Education
 
 
-* **Master in Computer Science - Cloud Computing** __2022-11 (not concluded)__
+* **Master in Computer Science - Cloud Computing** __2022-11 (in progress)__
 
 Instituto Superior de Tecnologias Avançadas - ISTEC
 
