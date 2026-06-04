@@ -1,18 +1,11 @@
 <li class="mb-2">
     <div class="resume-degree font-weight-bold">
-        {{ education.studyType }} {{ 'in' if language === 'en' else 'em' }} {{ education.courses[0] }}
+        {{ education.studyType }} in {{ education.courses[0] }}
     </div>
 
     <div class="resume-degree-org">{{ education.institution }}</div>
 
     <div class="resume-degree-time">
-        {{ education.startDate }}
-        {% if education.endDate %}
-            - {{ education.endDate }}
-        {% endif %}
-
-        {% if not education.concluded %}
-            <small class="resume-note">not concluded</small>
-        {% endif %}
+        {{ education.startDate }}{% if education.endDate %} - {{ education.endDate }}{% if education.concluded === false %} (not concluded){% endif %}{% else %} (in progress){% endif %}
     </div>
 </li>

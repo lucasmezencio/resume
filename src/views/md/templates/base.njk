@@ -2,7 +2,8 @@
 
 #### {{ resume.basics.label }}
 
-> {% for profile in resume.basics.profiles %}[{{ profile.url|replace('https://', '') }}]({{ profile.url }}){% if not loop.last %} | {% endif %}{% endfor %}
+> {% for profile in resume.basics.profiles %}[{{ profile.url|replace('https://', '') }}]({{ profile.url }}){% if not
+loop.last %} | {% endif %}{% endfor %}
 >
 > {{ resume.basics.location.city }}, {{ resume.basics.location.region }} - {{ resume.basics.location.countryCode }}
 >
@@ -17,7 +18,8 @@
 ## {{ topics.work }}
 
 {% for work in resume.work %}
-* **[{{ work.company }}]({{ work.url }})** *{{ work.position }}* (__{{ work.startDate}} to {{ work.endDate or 'Present' }}__ {% if work.endDate %}[{{ work.startDate | duration(work.endDate) }}]{% endif %})
+* **[{{ work.company }}]({{ work.url }})** *{{ work.position }}* (__{{ work.startDate}} to {{ work.endDate or 'Present'
+}}__ {% if work.endDate %}[{{ work.startDate | duration(work.endDate) }}]{% endif %})
 
 {{ work.summary|replace("\n", '<br>')|safe }}
 
@@ -28,7 +30,7 @@
 ## {{ topics.education }}
 
 {% for education in resume.education %}
-* **{{ education.studyType }} {{ 'in' if language === 'en' else 'em' }} {{ education.courses[0] }}** __{{ education.startDate }}{% if education.endDate %} - {{ education.endDate }}{% endif %}{% if not education.concluded %} (not concluded){% endif %}__
+* **{{ education.studyType }} in {{ education.courses[0] }}** __{{ education.startDate }}{% if education.endDate %} - {{ education.endDate }}{% if education.concluded === false %} (not concluded){% endif %}{% else %} (in progress){% endif %}__
 
 {{ education.institution }}
 {% endfor %}
