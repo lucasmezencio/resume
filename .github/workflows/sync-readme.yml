@@ -1,0 +1,48 @@
+name: Sync README to website repository
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-readme-to-website
+  cancel-in-progress: true
+
+jobs:
+  sync-readme:
+    name: Copy README
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out resume repository
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Check out website repository
+        uses: actions/checkout@v4
+        with:
+          repository: lucasmezencio/lucasmezencio.github.io
+          token: ${{ secrets.WEBSITE_REPO_TOKEN }}
+          path: website
+
+      - name: Copy and publish README
+        shell: bash
+        run: |
+          cp source/README.md website/README.md
+          cd website
+
+          if [[ -z "$(git status --porcelain -- README.md)" ]]; then
+            echo "README.md is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: sync README from resume@${GITHUB_SHA::7}"
+          git push
