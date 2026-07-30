@@ -8,8 +8,6 @@
 >
 > [eu@lucasmezencio.com](mailto:eu@lucasmezencio.com)
 >
-> skype: lucas.mezencio
->
 > +351 938 232 024
 
 I am a seasoned Backend Software Engineer with extensive experience since 2008 in developing robust systems and web applications. My expertise spans data modelling, Linux server administration, and enforcing coding best practices to enhance application performance and scalability.<br><br>I am passionate about leading and mentoring diverse engineering teams, fostering a collaborative environment that encourages knowledge sharing and professional growth.<br><br>I am also a strong proponent of Agile principles and open source software, continuously advocating for practices that improve team interactions and software quality.<br><br>Engaging in electronics as a hobby, applying my technical skills to personal projects with Arduino.
